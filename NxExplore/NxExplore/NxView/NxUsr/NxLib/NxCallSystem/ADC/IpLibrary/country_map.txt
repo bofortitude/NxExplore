@@ -1,0 +1,257 @@
+idx;	id;	short name;	index;	country name
+0;	23130;	ZZ;	0;	Reserved
+1;	12609;	A1;	9;	Anonymous Proxy
+2;	12865;	A2;	25;	Satellite Provider
+3;	12623;	O1;	44;	Other Country
+4;	17473;	AD;	58;	Andorra
+5;	17729;	AE;	66;	United Arab Emirates
+6;	17985;	AF;	87;	Afghanistan
+7;	18241;	AG;	99;	Antigua and Barbuda
+8;	18753;	AI;	119;	Anguilla
+9;	19521;	AL;	128;	Albania
+10;	19777;	AM;	136;	Armenia
+11;	20033;	AN;	144;	Netherlands Antilles
+12;	20289;	AO;	165;	Angola
+13;	20545;	AP;	172;	Asia/Pacific Region
+14;	20801;	AQ;	192;	Antarctica
+15;	21057;	AR;	203;	Argentina
+16;	21313;	AS;	213;	American Samoa
+17;	21569;	AT;	228;	Austria
+18;	21825;	AU;	236;	Australia
+19;	22337;	AW;	246;	Aruba
+20;	22593;	AX;	252;	Aland Islands
+21;	23105;	AZ;	266;	Azerbaijan
+22;	16706;	BA;	277;	Bosnia and Herzegovina
+23;	16962;	BB;	300;	Barbados
+24;	17474;	BD;	309;	Bangladesh
+25;	17730;	BE;	320;	Belgium
+26;	17986;	BF;	328;	Burkina Faso
+27;	18242;	BG;	341;	Bulgaria
+28;	18498;	BH;	350;	Bahrain
+29;	18754;	BI;	358;	Burundi
+30;	19010;	BJ;	366;	Benin
+31;	19522;	BL;	372;	Saint Bartelemey
+32;	19778;	BM;	389;	Bermuda
+33;	20034;	BN;	397;	Brunei Darussalam
+34;	20290;	BO;	415;	Bolivia
+35;	20802;	BQ;	423;	Bonaire, Saint Eustatius and Saba
+36;	21058;	BR;	457;	Brazil
+37;	21314;	BS;	464;	Bahamas
+38;	21570;	BT;	472;	Bhutan
+39;	22082;	BV;	479;	Bouvet Island
+40;	22338;	BW;	493;	Botswana
+41;	22850;	BY;	502;	Belarus
+42;	23106;	BZ;	510;	Belize
+43;	16707;	CA;	517;	Canada
+44;	17219;	CC;	524;	Cocos (Keeling) Islands
+45;	17475;	CD;	548;	Congo, The Democratic Republic of the
+46;	17987;	CF;	586;	Central African Republic
+47;	18243;	CG;	611;	Congo
+48;	18499;	CH;	617;	Switzerland
+49;	18755;	CI;	629;	Cote d'Ivoire
+50;	19267;	CK;	643;	Cook Islands
+51;	19523;	CL;	656;	Chile
+52;	19779;	CM;	662;	Cameroon
+53;	20035;	CN;	671;	China
+54;	20291;	CO;	677;	Colombia
+55;	21059;	CR;	686;	Costa Rica
+56;	21827;	CU;	697;	Cuba
+57;	22083;	CV;	702;	Cape Verde
+58;	22339;	CW;	713;	Curacao
+59;	22595;	CX;	721;	Christmas Island
+60;	22851;	CY;	738;	Cyprus
+61;	23107;	CZ;	745;	Czech Republic
+62;	17732;	DE;	760;	Germany
+63;	19012;	DJ;	768;	Djibouti
+64;	19268;	DK;	777;	Denmark
+65;	19780;	DM;	785;	Dominica
+66;	20292;	DO;	794;	Dominican Republic
+67;	23108;	DZ;	813;	Algeria
+68;	17221;	EC;	821;	Ecuador
+69;	17733;	EE;	829;	Estonia
+70;	18245;	EG;	837;	Egypt
+71;	18501;	EH;	843;	Western Sahara
+72;	21061;	ER;	858;	Eritrea
+73;	21317;	ES;	866;	Spain
+74;	21573;	ET;	872;	Ethiopia
+75;	21829;	EU;	881;	Europe
+76;	18758;	FI;	888;	Finland
+77;	19014;	FJ;	896;	Fiji
+78;	19270;	FK;	901;	Falkland Islands (Malvinas)
+79;	19782;	FM;	929;	Micronesia, Federated States of
+80;	20294;	FO;	961;	Faroe Islands
+81;	21062;	FR;	975;	France
+82;	16711;	GA;	982;	Gabon
+83;	16967;	GB;	988;	United Kingdom
+84;	17479;	GD;	1003;	Grenada
+85;	17735;	GE;	1011;	Georgia
+86;	17991;	GF;	1019;	French Guiana
+87;	18247;	GG;	1033;	Guernsey
+88;	18503;	GH;	1042;	Ghana
+89;	18759;	GI;	1048;	Gibraltar
+90;	19527;	GL;	1058;	Greenland
+91;	19783;	GM;	1068;	Gambia
+92;	20039;	GN;	1075;	Guinea
+93;	20551;	GP;	1082;	Guadeloupe
+94;	20807;	GQ;	1093;	Equatorial Guinea
+95;	21063;	GR;	1111;	Greece
+96;	21319;	GS;	1118;	South Georgia and the South Sandwich Islands
+97;	21575;	GT;	1163;	Guatemala
+98;	21831;	GU;	1173;	Guam
+99;	22343;	GW;	1178;	Guinea-Bissau
+100;	22855;	GY;	1192;	Guyana
+101;	19272;	HK;	1199;	Hong Kong
+102;	19784;	HM;	1209;	Heard Island and McDonald Islands
+103;	20040;	HN;	1243;	Honduras
+104;	21064;	HR;	1252;	Croatia
+105;	21576;	HT;	1260;	Haiti
+106;	21832;	HU;	1266;	Hungary
+107;	17481;	ID;	1274;	Indonesia
+108;	17737;	IE;	1284;	Ireland
+109;	19529;	IL;	1292;	Israel
+110;	19785;	IM;	1299;	Isle of Man
+111;	20041;	IN;	1311;	India
+112;	20297;	IO;	1317;	British Indian Ocean Territory
+113;	20809;	IQ;	1348;	Iraq
+114;	21065;	IR;	1353;	Iran, Islamic Republic of
+115;	21321;	IS;	1379;	Iceland
+116;	21577;	IT;	1387;	Italy
+117;	17738;	JE;	1393;	Jersey
+118;	19786;	JM;	1400;	Jamaica
+119;	20298;	JO;	1408;	Jordan
+120;	20554;	JP;	1415;	Japan
+121;	17739;	KE;	1421;	Kenya
+122;	18251;	KG;	1427;	Kyrgyzstan
+123;	18507;	KH;	1438;	Cambodia
+124;	18763;	KI;	1447;	Kiribati
+125;	19787;	KM;	1456;	Comoros
+126;	20043;	KN;	1464;	Saint Kitts and Nevis
+127;	20555;	KP;	1486;	Korea, Democratic People's Republic of
+128;	21067;	KR;	1525;	Korea, Republic of
+129;	22347;	KW;	1544;	Kuwait
+130;	22859;	KY;	1551;	Cayman Islands
+131;	23115;	KZ;	1566;	Kazakhstan
+132;	16716;	LA;	1577;	Lao People's Democratic Republic
+133;	16972;	LB;	1610;	Lebanon
+134;	17228;	LC;	1618;	Saint Lucia
+135;	18764;	LI;	1630;	Liechtenstein
+136;	19276;	LK;	1644;	Sri Lanka
+137;	21068;	LR;	1654;	Liberia
+138;	21324;	LS;	1662;	Lesotho
+139;	21580;	LT;	1670;	Lithuania
+140;	21836;	LU;	1680;	Luxembourg
+141;	22092;	LV;	1691;	Latvia
+142;	22860;	LY;	1698;	Libyan Arab Jamahiriya
+143;	16717;	MA;	1721;	Morocco
+144;	17229;	MC;	1729;	Monaco
+145;	17485;	MD;	1736;	Moldova, Republic of
+146;	17741;	ME;	1757;	Montenegro
+147;	17997;	MF;	1768;	Saint Martin
+148;	18253;	MG;	1781;	Madagascar
+149;	18509;	MH;	1792;	Marshall Islands
+150;	19277;	MK;	1809;	Macedonia
+151;	19533;	ML;	1819;	Mali
+152;	19789;	MM;	1824;	Myanmar
+153;	20045;	MN;	1832;	Mongolia
+154;	20301;	MO;	1841;	Macao
+155;	20557;	MP;	1847;	Northern Mariana Islands
+156;	20813;	MQ;	1872;	Martinique
+157;	21069;	MR;	1883;	Mauritania
+158;	21325;	MS;	1894;	Montserrat
+159;	21581;	MT;	1905;	Malta
+160;	21837;	MU;	1911;	Mauritius
+161;	22093;	MV;	1921;	Maldives
+162;	22349;	MW;	1930;	Malawi
+163;	22605;	MX;	1937;	Mexico
+164;	22861;	MY;	1944;	Malaysia
+165;	23117;	MZ;	1953;	Mozambique
+166;	16718;	NA;	1964;	Namibia
+167;	17230;	NC;	1972;	New Caledonia
+168;	17742;	NE;	1986;	Niger
+169;	17998;	NF;	1992;	Norfolk Island
+170;	18254;	NG;	2007;	Nigeria
+171;	18766;	NI;	2015;	Nicaragua
+172;	19534;	NL;	2025;	Netherlands
+173;	20302;	NO;	2037;	Norway
+174;	20558;	NP;	2044;	Nepal
+175;	21070;	NR;	2050;	Nauru
+176;	21838;	NU;	2056;	Niue
+177;	23118;	NZ;	2061;	New Zealand
+178;	19791;	OM;	2073;	Oman
+179;	16720;	PA;	2078;	Panama
+180;	17744;	PE;	2085;	Peru
+181;	18000;	PF;	2090;	French Polynesia
+182;	18256;	PG;	2107;	Papua New Guinea
+183;	18512;	PH;	2124;	Philippines
+184;	19280;	PK;	2136;	Pakistan
+185;	19536;	PL;	2145;	Poland
+186;	19792;	PM;	2152;	Saint Pierre and Miquelon
+187;	20048;	PN;	2178;	Pitcairn
+188;	21072;	PR;	2187;	Puerto Rico
+189;	21328;	PS;	2199;	Palestinian Territory
+190;	21584;	PT;	2221;	Portugal
+191;	22352;	PW;	2230;	Palau
+192;	22864;	PY;	2236;	Paraguay
+193;	16721;	QA;	2245;	Qatar
+194;	17746;	RE;	2251;	Reunion
+195;	20306;	RO;	2259;	Romania
+196;	21330;	RS;	2267;	Serbia
+197;	21842;	RU;	2274;	Russian Federation
+198;	22354;	RW;	2293;	Rwanda
+199;	16723;	SA;	2300;	Saudi Arabia
+200;	16979;	SB;	2313;	Solomon Islands
+201;	17235;	SC;	2329;	Seychelles
+202;	17491;	SD;	2340;	Sudan
+203;	17747;	SE;	2346;	Sweden
+204;	18259;	SG;	2353;	Singapore
+205;	18515;	SH;	2363;	Saint Helena
+206;	18771;	SI;	2376;	Slovenia
+207;	19027;	SJ;	2385;	Svalbard and Jan Mayen
+208;	19283;	SK;	2408;	Slovakia
+209;	19539;	SL;	2417;	Sierra Leone
+210;	19795;	SM;	2430;	San Marino
+211;	20051;	SN;	2441;	Senegal
+212;	20307;	SO;	2449;	Somalia
+213;	21075;	SR;	2457;	Suriname
+214;	21331;	SS;	2466;	South Sudan
+215;	21587;	ST;	2478;	Sao Tome and Principe
+216;	22099;	SV;	2500;	El Salvador
+217;	22611;	SX;	2512;	Sint Maarten
+218;	22867;	SY;	2525;	Syrian Arab Republic
+219;	23123;	SZ;	2546;	Swaziland
+220;	17236;	TC;	2556;	Turks and Caicos Islands
+221;	17492;	TD;	2581;	Chad
+222;	18004;	TF;	2586;	French Southern Territories
+223;	18260;	TG;	2614;	Togo
+224;	18516;	TH;	2619;	Thailand
+225;	19028;	TJ;	2628;	Tajikistan
+226;	19284;	TK;	2639;	Tokelau
+227;	19540;	TL;	2647;	Timor-Leste
+228;	19796;	TM;	2659;	Turkmenistan
+229;	20052;	TN;	2672;	Tunisia
+230;	20308;	TO;	2680;	Tonga
+231;	21076;	TR;	2686;	Turkey
+232;	21588;	TT;	2693;	Trinidad and Tobago
+233;	22100;	TV;	2713;	Tuvalu
+234;	22356;	TW;	2720;	Taiwan
+235;	23124;	TZ;	2727;	Tanzania, United Republic of
+236;	16725;	UA;	2756;	Ukraine
+237;	18261;	UG;	2764;	Uganda
+238;	19797;	UM;	2771;	United States Minor Outlying Islands
+239;	21333;	US;	2808;	United States
+240;	22869;	UY;	2822;	Uruguay
+241;	23125;	UZ;	2830;	Uzbekistan
+242;	16726;	VA;	2841;	Holy See (Vatican City State)
+243;	17238;	VC;	2871;	Saint Vincent and the Grenadines
+244;	17750;	VE;	2904;	Venezuela
+245;	18262;	VG;	2914;	Virgin Islands, British
+246;	18774;	VI;	2938;	Virgin Islands, U.S.
+247;	20054;	VN;	2959;	Vietnam
+248;	21846;	VU;	2967;	Vanuatu
+249;	18007;	WF;	2975;	Wallis and Futuna
+250;	21335;	WS;	2993;	Samoa
+251;	17753;	YE;	2999;	Yemen
+252;	21593;	YT;	3005;	Mayotte
+253;	16730;	ZA;	3013;	South Africa
+254;	19802;	ZM;	3026;	Zambia
+255;	22362;	ZW;	3033;	Zimbabwe
