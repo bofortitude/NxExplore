@@ -1,13 +1,15 @@
 #!/usr/bin/python
 
 
-from ....NxConfigs.NxPredefined import PredefinedWechat
-from ....NxElements.WechatActiveAgent import WechatActive
-from ....NxExternalLibs import schedule
+from ....NxEtc.NxPublicConfig.NxPredefined import PreWechat as PredefinedWechat
+from ....NxUsr.NxLib.WechatActiveAgent import WechatActive
+from ....NxLib import schedule
+
 
 import time
 
 taskList = []
+
 
 def sendToUs(text):
     myAgent = WechatActive(PredefinedWechat.corpId, PredefinedWechat.secret)

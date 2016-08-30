@@ -2,7 +2,8 @@
 
 
 from Link2InfoWeb import Link2InfoWeb
-from ....NxElements.NxCallSystem.Linux.RunShellCommand import RunShellCommand
+
+from ....NxUsr.NxLib.NxCallSystem.Linux.RunShellCommand import RunShellCommand
 
 
 

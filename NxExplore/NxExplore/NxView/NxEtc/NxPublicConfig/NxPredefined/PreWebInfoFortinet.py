@@ -2,7 +2,7 @@
 
 import re
 
-from . import PredefinedDefault
+from . import PreDefault
 
 
 infoWebLoginUser = u'bofei@fortinet.com'
@@ -16,7 +16,7 @@ ignoreMainVersion=[
 ]
 
 
-inputFilesRootPath = PredefinedDefault.NxInputPath
+inputFilesRootPath = PreDefault.NxExploreInputPath
 fileExceptBuildList = inputFilesRootPath+'/'+'ExceptBuildList.txt'
 fileUserPasswd = inputFilesRootPath+'/'+'UserPasswd.conf'
 

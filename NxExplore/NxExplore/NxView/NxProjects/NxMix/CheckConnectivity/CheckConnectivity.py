@@ -3,8 +3,9 @@
 import time
 import subprocess
 
-from ....NxElements.WechatActiveAgent import WechatActive
-from ....NxConfigs.NxPredefined import PredefinedWechat
+
+from ....NxUsr.NxLib.WechatActiveAgent import WechatActive
+from ....NxEtc.NxPublicConfig.NxPredefined import PreWechat as PredefinedWechat
 
 def checkSubnet(dstIp):
     subnetOk = True
@@ -42,5 +43,5 @@ def checkSubnet(dstIp):
         print 'Sleep 1 second ...'
         time.sleep(1)
 
-def mainEn(dstIp = '172.22.15.1'):
+def mainEn(dstIp = '1.1.1.1'):
     checkSubnet(dstIp)

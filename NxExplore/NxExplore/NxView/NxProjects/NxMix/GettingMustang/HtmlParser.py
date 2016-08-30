@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
-from ....NxConfigs.NxPredefined.PredefinedWebInfoFortinet import *
+
+from ....NxEtc.NxPublicConfig.NxPredefined.PreWebInfoFortinet import *
 from bs4 import BeautifulSoup
 
 

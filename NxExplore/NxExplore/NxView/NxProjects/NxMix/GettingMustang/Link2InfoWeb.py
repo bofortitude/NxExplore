@@ -1,9 +1,11 @@
 #!/usr/bin/python
 
 
-from ....NxElements import NxRequests
-from ....NxConfigs.NxPredefined.PredefinedWebInfoFortinet import *
-from ....NxElements.DumpInfo import dumpInfo
+
+from ....NxUsr.NxLib import NxRequests
+from ....NxEtc.NxPublicConfig.NxPredefined.PreWebInfoFortinet import *
+from ....NxUsr.NxLib.DumpInfo import dumpInfo
+
 import HtmlParser
 
 import time

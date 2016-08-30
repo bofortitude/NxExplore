@@ -8,7 +8,7 @@ import sys
 import NxRequests
 import NxFiles
 from DumpInfo import dumpInfo
-from ..NxConfigs.NxPredefined import PredefinedDefault
+from ...NxEtc.NxPublicConfig.NxPredefined import PreDefault as PredefinedDefault
 
 
 # accessTokenFile:
@@ -31,11 +31,11 @@ class WechatActive():
         self.accessTokenFileName = accessTokenFileName
         #scriptPath = os.path.split(os.path.realpath(__file__))[0]
         if accessTokenStoragePath:
-            self.accessTokenStoragePath = self.accessTokenFileName
+            self.accessTokenStoragePath = accessTokenStoragePath
         else:
             #upperPath = NxFiles.getUpperPath(scriptPath)
             #self.accessTokenStoragePath = upperPath+'/ExchangeData'
-            self.accessTokenStoragePath = PredefinedDefault.NxExchangePath
+            self.accessTokenStoragePath = PredefinedDefault.NxRunPath
         self.accessTokenFile = self.accessTokenStoragePath+'/'+self.accessTokenFileName
         self.accessTokenDict = None
         self.sender = NxRequests.NxRequests()
