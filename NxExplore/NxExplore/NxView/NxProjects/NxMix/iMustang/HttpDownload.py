@@ -22,7 +22,7 @@ from ....NxLib import requests
 
 
 
-class WgetDownload():
+class WgetDownload(): # Not available
     def __init__(self, timeout=60, tries=5):
         self.timeout = timeout
         self.tries = tries

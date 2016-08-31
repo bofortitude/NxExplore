@@ -14,6 +14,8 @@ selectedImageReList = [re.compile(r'^FAD_700D.*\.out$'),
                            re.compile(r'^FAD_1500D.*\.out$'),
                            re.compile(r'^FAD_VM.*\.out$')]
 
+
+
 infoWebLoginUrl = 'https://info.fortinet.com/session'
 infoWebBasicHeadersList= [
     ('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8')
@@ -74,7 +76,11 @@ if not checkOverCount:
     checkOverCount = 5
 else:
     checkOverCount = int(checkOverCount)
-
+infoReceiver = iMustangConfigObj.getValueOfOption('iMustang', 'infoReceiver')
+if not infoReceiver:
+    infoReceiver = ['bofei']
+else:
+    infoReceiver = infoReceiver.split(',')
 
 
 

@@ -50,7 +50,6 @@ def getImageDict(html, imagePageTableAttrs):
         imageModifiedDict[str(singleUnitList[1]).split('>')[2].split('<')[0]] = str(singleUnitList[3]).split('>')[1].split('<')[0]
     return imageModifiedDict
 
-
 def getImageList(html, imagePageTableAttrs):
     imageList = []
     imagePattern = infoWebHtmlImageStrPattern
@@ -60,8 +59,6 @@ def getImageList(html, imagePageTableAttrs):
     for i in imageTagList:
         imageList.append(str(i.getText()).replace('/', ''))
     return imageList
-
-
 
 def isLoginOk(html):
 

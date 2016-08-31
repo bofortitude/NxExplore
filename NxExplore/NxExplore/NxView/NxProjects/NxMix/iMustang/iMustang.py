@@ -2,6 +2,7 @@
 
 
 import time
+import multiprocessing
 
 
 from ....NxEtc.NxPublicConfig.NxPredefined.PreWebInfoFortinet import *
@@ -11,6 +12,8 @@ from ....NxUsr.NxLib.DumpInfo import dumpInfo
 from ....NxUsr.NxLib.NxConfig import NxConfig
 import HttpDownload
 from ....NxUsr.NxLib.NxCallSystem.Linux.RunShellCommand import runShellCmd
+import InfoPush
+from CheckWebConnectivity import checkSubnet
 
 
 
@@ -32,52 +35,9 @@ def getSelectedBuildList(buildListOnSite):
     dumpInfo(selectedBuildList, raw=True)
     return selectedBuildList
 
-
-def readDictFromFile(dictPathName):
-    if not NxFiles.isFile(dictPathName):
-        return {}
-    dictToReturn = {}
-    config = NxConfig(dictPathName)
-    sections = config.getSections()
-    for i in sections:
-        keys = config.getItemsOfSection(i)
-        for j in keys:
-            dictToReturn[j] = config.getValueOfOption(i, j)
-    return dictToReturn
-
-
-def writeDict2File(name, path, dict):
-    if not NxFiles.isDir(path):
-        NxFiles.makeDirs(path)
-    NxFiles.removeForce(str(path)+'/'+str(name))
-    config = NxConfig(str(path)+'/'+str(name))
-    config.addSection('default')
-    for (i,j) in dict.items():
-        config.setValueOfOption('default', i, j)
-
-
 def wait4Next():
     dumpInfo('Sleep ' + str(checkInterval) + 's for next round checking and downloading...')
     time.sleep(checkInterval)
-
-
-def getSelectedImageList(remoteImageDict):
-    selectedImageList = []
-    if selectedImageReList == []:
-        for i in remoteImageDict:
-            selectedImageList.append(i)
-        return selectedImageList
-    elif selectedImageReList == None:
-        for i in remoteImageDict:
-            selectedImageList.append(i)
-        return selectedImageList
-
-    for i in remoteImageDict:
-        for j in selectedImageReList:
-            if j.match(i):
-                selectedImageList.append(i)
-                break
-    return selectedImageList
 
 def selectBuildList(myLink, i):
     currentBuildListUrl = infoWebMainVersionUrl + str(i) + '/Images/'
@@ -131,11 +91,18 @@ def getDownloadList(remoteImageSizeDict, localBuildPath):
                 imageToDownload.append(str(key))
     return imageToDownload
 
-
+def startCheckingConn():
+    p = multiprocessing.Process(target=checkSubnet)
+    p.start()
 
 
 def mainEn(*args, **kwargs):
     dumpInfo('Starting the whole iMustang process ...')
+    InfoPush.pushInfo('[172.22.15.138] iMustang has been restarted. ('+str(time.ctime())+')')
+
+    dumpInfo('Starting the process of checking connectivity ....')
+    startCheckingConn()
+
 
     buildOverDict = {}
     while True:
@@ -143,11 +110,16 @@ def mainEn(*args, **kwargs):
         try:
             myLink = Link2InfoWeb()
             if not myLink.login():
+                InfoPush.send2Me('[172.22.15.138] Login failed!')
                 wait4Next()
                 continue
 
             # select the main version list to be checked
             selectedMainVersionList = myLink.getSelectedMainVersion(myLink.getMainVersion())
+            if not selectedMainVersionList:
+                InfoPush.send2Me('[172.22.15.138] Getting selected main version list failed!')
+                wait4Next()
+                continue
 
             # in selected main version list
             for i in selectedMainVersionList:
@@ -161,6 +133,10 @@ def mainEn(*args, **kwargs):
                     currentImageListUrl = currentBuildListUrl+str(j)+'/'
                     currentImagePageTableAttrs = {'data-current':'/files/FortiADC/'+str(i)+'/Images/'+str(j)}
                     remoteImageList = myLink.getRemoteImageList(currentImageListUrl, currentImagePageTableAttrs)
+                    if not remoteImageList:
+                        InfoPush.send2Me('[172.22.15.138] Getting remote image list failed!')
+                        wait4Next()
+                        continue
 
                     # get the selected image list
                     selectedImageList = selectImageList(remoteImageList)
@@ -168,7 +144,9 @@ def mainEn(*args, **kwargs):
                     # get remote image size dict
                     remoteImageSizeDict = myLink.headImageSize(selectedImageList, currentImageListUrl)
                     if not remoteImageSizeDict:
+                        InfoPush.send2Me('[172.22.15.138] Getting remote image size dict failed!')
                         wait4Next()
+                        continue
 
                     # check and create local build folder
                     localBuildPath = checkLocalFolder(j)
@@ -187,9 +165,13 @@ def mainEn(*args, **kwargs):
                     if j in buildOverDict:
                         if int(buildOverDict[j]) >= checkOverCount:
                             del buildOverDict[j]
+                            dumpInfo('Add the build number '+str(j)+' to file '+str(fileExceptBuildList)+' .')
                             myFile = open(fileExceptBuildList, 'a')
                             myFile.write(str(j) + '\n')
                             myFile.close()
+                            dumpInfo('Sending the message to receivers '+str(infoReceiver)+' ...')
+                            InfoPush.pushInfo('All selected images of '+str(j)+' has been downloaded over, you can check it on '+str(localBuildPath)+' .')
+
 
                     downloadThreadList = []
                     for ima in imageToDownload:
@@ -198,14 +180,16 @@ def mainEn(*args, **kwargs):
                         downloader.start()
                         downloadThreadList.append(downloader)
 
-                    dumpInfo('Waiting for all threads over...')
-                    for thrd in downloadThreadList:
-                        thrd.join()
-                    dumpInfo('All threads over.')
+                    if downloadThreadList != []:
+                        dumpInfo('Waiting for all threads over...')
+                        for thrd in downloadThreadList:
+                            thrd.join()
+                        dumpInfo('All threads over.')
 
         except Exception as e:
             dumpInfo('Meets global exception in this round checking and downloading:')
             dumpInfo(e, raw=True)
+            InfoPush.send2Me('[172.22.15.138 exception!]:'+str(e))
         wait4Next()
 
 
