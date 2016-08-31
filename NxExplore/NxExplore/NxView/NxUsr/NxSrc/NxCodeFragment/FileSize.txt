@@ -1,0 +1,46 @@
+#!/usr/bin/python
+
+
+
+
+
+There is hurry.filesize that will take the size in bytes and make a nice string out if it.
+
+>>> from hurry.filesize import size
+>>> size(11000)
+'10K'
+>>> size(198283722)
+'189M'
+Or if you want 1K == 1000 (which is what most users assume):
+
+>>> from hurry.filesize import size, si
+>>> size(11000, system=si)
+'11K'
+>>> size(198283722, system=si)
+'198M'
+It has IEC support as well (but that wasn't documented):
+
+>>> from hurry.filesize import size, iec
+>>> size(11000, system=iec)
+'10Ki'
+>>> size(198283722, system=iec)
+'189Mi'
+Because it's written by the Awesome Martijn Faassen, the code is small, clear and extensible. Writing your own systems is dead easy.
+
+Here is one:
+
+mysystem = [
+    (1024 ** 5, ' Megamanys'),
+    (1024 ** 4, ' Lotses'),
+    (1024 ** 3, ' Tons'),
+    (1024 ** 2, ' Heaps'),
+    (1024 ** 1, ' Bunches'),
+    (1024 ** 0, ' Thingies'),
+    ]
+Used like so:
+
+>>> from hurry.filesize import size
+>>> size(11000, system=mysystem)
+'10 Bunches'
+>>> size(198283722, system=mysystem)
+'189 Heaps'

@@ -1,11 +1,14 @@
 #!/usr/bin/python
 
 import ConfigParser
-
+import os
 
 class NxConfig():
     def __init__(self, configFile):
         self.configFile = configFile
+        if not os.path.isfile(self.configFile):
+            file = open(self.configFile, 'w')
+            file.close()
         self.conf = ConfigParser.ConfigParser()
         self.conf.read(self.configFile)
 
@@ -71,9 +74,6 @@ class NxConfig():
 
     def getConfigObj(self):
         return self.conf
-
-
-
 
 
 

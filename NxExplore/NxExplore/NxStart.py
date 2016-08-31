@@ -11,10 +11,15 @@ def runCheckConnectivity(*args, **kwargs):
     from NxView.NxUsr.NxBin import EnCheckConnectivity
     EnCheckConnectivity.start(args, kwargs)
 
+def runImustang(*args, **kwargs):
+    from NxView.NxUsr.NxBin import EnImustang
+    EnImustang.start(args, kwargs)
+
 
 projectNameMap = {
     'Info4Us':eval('runInfo4Us'),
-    'CheckConnectivity': eval('runCheckConnectivity')
+    'CheckConnectivity': eval('runCheckConnectivity'),
+    'iMustang': eval('runImustang')
 
 }
 

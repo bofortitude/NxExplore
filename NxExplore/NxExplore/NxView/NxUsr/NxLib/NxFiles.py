@@ -134,6 +134,11 @@ def removeForce(path):
     else:
         return False
 
+def fileSize(path):
+    if not isFile(path):
+        return False
+    return os.path.getsize(path)
+
 
 
 if __name__ == '__main__':

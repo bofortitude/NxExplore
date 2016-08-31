@@ -41,13 +41,17 @@ class RunShellCommand():
     def addRunningCommand(self, command):
         dumpInfo('Run command: '+str(command)+' ...')
         shellRun = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-        self.cmdSubprocessDict[command] = shellRun
+        self.cmdSubprocessDict[str(command)] = shellRun
         dumpInfo('Command '+str(command)+' has been started.')
 
     def wait4Subprocess(self):
         dumpInfo('Waiting for all the shell commands over...')
         for (i, j) in self.cmdSubprocessDict.items():
+
             statusCode = j.wait()
+            dumpInfo('The command "'+i+'" status cde is:')
+            dumpInfo(statusCode, raw=True)
+
             returnString = ''
             for line in j.stdout.readlines():
                 dumpInfo(line, raw=True)
