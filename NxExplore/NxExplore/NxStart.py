@@ -15,11 +15,16 @@ def runImustang(*args, **kwargs):
     from NxView.NxUsr.NxBin import EnImustang
     EnImustang.start(args, kwargs)
 
+def runTrial(*args, **kwargs):
+    from NxView.NxUsr.NxBin import EnTrial
+    EnTrial.start(args, kwargs)
+
 
 projectNameMap = {
     'Info4Us':eval('runInfo4Us'),
     'CheckConnectivity': eval('runCheckConnectivity'),
-    'iMustang': eval('runImustang')
+    'iMustang': eval('runImustang'),
+    'Trial': eval('runTrial')
 
 }
 

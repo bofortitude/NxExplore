@@ -34,6 +34,11 @@ class NxRequests():
         self.data = {}
         self.session.verify = False
         self.json = {}
+        self.timeout = 300
+
+    def setTimeout(self, timeout):
+        self.timeout = timeout
+
 
     def addHeader(self, name, value):
         self.headers[name] = value
@@ -77,25 +82,25 @@ class NxRequests():
         self.json = {}
 
     def get(self, url, **kwargs):
-        return self.session.get(url, **kwargs)
+        return self.session.get(url, timeout=self.timeout, **kwargs)
 
     def options(self, url, **kwargs):
-        return self.session.options(url, **kwargs)
+        return self.session.options(url, timeout=self.timeout, **kwargs)
 
     def head(self, url, **kwargs):
-        return self.session.head(url, **kwargs)
+        return self.session.head(url, timeout=self.timeout, **kwargs)
 
     def post(self, url, **kwargs):
-        return self.session.post(url, data=self.data, json=self.json, **kwargs)
+        return self.session.post(url, data=self.data, json=self.json, timeout=self.timeout, **kwargs)
 
     def put(self, url, data=None, **kwargs):
-        return self.session.put(url, data=self.data, **kwargs)
+        return self.session.put(url, data=self.data, timeout=self.timeout, **kwargs)
 
     def patch(self, url, data=None, **kwargs):
-        return self.session.patch(url, data=self.data, **kwargs)
+        return self.session.patch(url, data=self.data, timeout=self.timeout, **kwargs)
 
     def delete(self, url, **kwargs):
-        return self.session.delete(url, **kwargs)
+        return self.session.delete(url, timeout=self.timeout, **kwargs)
 
 
 

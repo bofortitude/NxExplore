@@ -2,6 +2,7 @@
 
 
 import threading
+import time
 
 
 from Link2InfoWeb import Link2InfoWeb
@@ -43,22 +44,30 @@ class WgetDownload(): # Not available
 
 
 class PyRequestsDownload(threading.Thread):
-    def __init__(self, url, cookies, dstPath):
+    def __init__(self, url, cookies, dstPath, timeout=60, tries=5):
         threading.Thread.__init__(self)
         self.url = url
         self.cookies = cookies
         self.dstPath = dstPath
+        self.timeout = timeout
+        self.tries = tries
 
     def run(self):
         local_filename = self.url.split('/')[-1]
         # NOTE the stream=True parameter
-        r = requests.get(self.url, stream=True, cookies=self.cookies)
-        with open(self.dstPath + '/' + local_filename, 'wb') as f:
-            for chunk in r.iter_content(chunk_size=1024):
-                if chunk:  # filter out keep-alive new chunks
-                    f.write(chunk)
-                    # f.flush() commented by recommendation from J.F.Sebastian
-
+        for i in xrange(self.tries):
+            try:
+                r = requests.get(self.url, stream=True, cookies=self.cookies, timeout=self.timeout)
+                with open(self.dstPath + '/' + local_filename, 'wb') as f:
+                    for chunk in r.iter_content(chunk_size=1024):
+                        if chunk:  # filter out keep-alive new chunks
+                            f.write(chunk)
+                            # f.flush() commented by recommendation from J.F.Sebastian
+                return True
+            except Exception as e:
+                if i == self.tries-1:
+                    return False
+            time.sleep(1)
 
 
 

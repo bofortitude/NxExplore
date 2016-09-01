@@ -98,7 +98,8 @@ def startCheckingConn():
 
 def mainEn(*args, **kwargs):
     dumpInfo('Starting the whole iMustang process ...')
-    InfoPush.pushInfo('[172.22.15.138] iMustang has been restarted. ('+str(time.ctime())+')')
+    #InfoPush.pushInfo('[172.22.15.138] iMustang has been restarted. ('+str(time.ctime())+')')
+    InfoPush.send2Me('[172.22.15.138] iMustang has been restarted. ('+str(time.ctime())+')')
 
     dumpInfo('Starting the process of checking connectivity ....')
     startCheckingConn()

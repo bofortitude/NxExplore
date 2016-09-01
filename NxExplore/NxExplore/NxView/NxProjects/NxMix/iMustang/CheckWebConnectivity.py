@@ -15,15 +15,15 @@ def checkSubnet():
     subnetFailCount = 0
     command = 'ping '+str(dstIp)+' -c 1'
     while True:
-        print 'Starting to ping destination ...'
+        #print 'Starting to ping destination ...'
         shell_run = subprocess.call(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
         if shell_run == 0:
-            print 'Destination is reachable.'
+            #print 'Destination is reachable.'
             subnetOkCount += 1
             subnetFailCount = 0
         else:
-            print 'Destination is unreachable.'
+            #print 'Destination is unreachable.'
             subnetOkCount = 0
             subnetFailCount += 1
 
@@ -42,5 +42,5 @@ def checkSubnet():
                 myAgent.sendText(PredefinedWechat.agentIdDict['QAinfo'], reachableMessage, toUserList=PreWebInfoFortinet.infoReceiver)
                 subnetOk = True
 
-        print 'Sleep 5 second ...'
+        #print 'Sleep 5 second ...'
         time.sleep(5)
