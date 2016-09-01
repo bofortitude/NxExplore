@@ -12,7 +12,7 @@ from ....NxUsr.NxLib import NxFiles
 
 selectedImageReList = [re.compile(r'^FAD_700D.*\.out$'),
                            re.compile(r'^FAD_1500D.*\.out$'),
-                           re.compile(r'^FAD_VM.*\.out$')]
+                           re.compile(r'^FAD_VM.*')]
 
 
 

@@ -163,6 +163,9 @@ def mainEn(*args, **kwargs):
                             buildOverDict[j] = int(buildOverDict[j])+1
                         else:
                             buildOverDict[j] = 1
+                    else:
+                        buildOverDict[j] = 0
+
                     if j in buildOverDict:
                         if int(buildOverDict[j]) >= checkOverCount:
                             del buildOverDict[j]
