@@ -85,7 +85,7 @@ else:
     infoReceiver = infoReceiver.split(',')
 diskThreshold = iMustangConfigObj.getValueOfOption('iMustang', 'diskThreshold')
 if not diskThreshold:
-    diskThreshold = 20
+    diskThreshold = 80
 else:
     diskThreshold = int(diskThreshold)
 

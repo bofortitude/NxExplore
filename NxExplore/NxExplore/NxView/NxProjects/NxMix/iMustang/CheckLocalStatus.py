@@ -48,7 +48,7 @@ def checkDiskUsage(checkInterval=120):
                         break
                 if deletedList != []:
                     InfoPush.pushInfo('[172.22.15.138]: "'+str(imageLocalStoragePath)+'" disk is used '
-                                      +str(rootDiskUsage)+'%, there old build folders have been removed:'+str(deletedList))
+                                      +str(rootDiskUsage)+'%, these build folders have been removed:'+str(deletedList))
 
         except Exception as e:
             pass
