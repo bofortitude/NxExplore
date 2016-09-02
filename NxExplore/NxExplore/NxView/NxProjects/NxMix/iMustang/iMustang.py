@@ -14,6 +14,7 @@ import HttpDownload
 from ....NxUsr.NxLib.NxCallSystem.Linux.RunShellCommand import runShellCmd
 import InfoPush
 from CheckWebConnectivity import checkSubnet
+from CheckLocalStatus import checkDiskUsage
 
 
 
@@ -58,7 +59,7 @@ def selectImageList(remoteImageList):
         return remoteImageList
     for i in remoteImageList:
         for j in selectedImageReList:
-            if j.match(i):
+            if j.search(i):
                 selectedImageList.append(i)
                 break
     return selectedImageList
@@ -95,6 +96,10 @@ def startCheckingConn():
     p = multiprocessing.Process(target=checkSubnet)
     p.start()
 
+def startCheckingDisk():
+    p = multiprocessing.Process(target=checkDiskUsage)
+    p.start()
+
 
 def mainEn(*args, **kwargs):
     dumpInfo('Starting the whole iMustang process ...')
@@ -103,6 +108,9 @@ def mainEn(*args, **kwargs):
 
     dumpInfo('Starting the process of checking connectivity ....')
     startCheckingConn()
+
+    dumpInfo('Starting the process of checking disk usage ...')
+    startCheckingDisk()
 
 
     buildOverDict = {}

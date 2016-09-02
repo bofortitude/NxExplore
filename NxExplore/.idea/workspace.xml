@@ -24,43 +24,39 @@
         <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/iMustang.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+              <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
               <folding>
-                <element signature="e#20#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DumpInfo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/DumpInfo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-              <folding>
-                <element signature="e#19#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoPush.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/InfoPush.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpDownload.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/HttpDownload.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-              <folding>
-                <element signature="e#20#36#0" expanded="true" />
+                <element signature="e#536#972#0" expanded="false" />
+                <element signature="e#666#754#0" expanded="false" />
+                <element signature="e#695#754#0" expanded="false" />
+                <element signature="e#793#856#0" expanded="false" />
+                <element signature="e#995#1113#0" expanded="false" />
+                <element signature="e#1151#1560#0" expanded="false" />
+                <element signature="e#1604#1995#0" expanded="false" />
+                <element signature="e#1843#1966#0" expanded="false" />
+                <element signature="e#1885#1966#0" expanded="false" />
+                <element signature="e#1917#1966#0" expanded="false" />
+                <element signature="e#2026#2772#0" expanded="false" />
+                <element signature="e#2241#2312#0" expanded="false" />
+                <element signature="e#2836#3262#0" expanded="false" />
+                <element signature="e#2918#3235#0" expanded="false" />
+                <element signature="e#3045#3235#0" expanded="false" />
+                <element signature="e#3134#3235#0" expanded="false" />
+                <element signature="e#3293#3354#0" expanded="false" />
+                <element signature="e#3385#3449#0" expanded="false" />
+                <element signature="e#4040#8072#0" expanded="false" />
+                <element signature="e#4115#4217#0" expanded="false" />
+                <element signature="e#4429#4560#0" expanded="false" />
+                <element signature="e#4669#8072#0" expanded="false" />
+                <element signature="e#4917#8072#0" expanded="false" />
+                <element signature="e#5309#5447#0" expanded="false" />
+                <element signature="e#5797#5940#0" expanded="false" />
+                <element signature="e#6450#6622#0" expanded="false" />
+                <element signature="e#6762#7386#0" expanded="false" />
+                <element signature="e#6834#7386#0" expanded="false" />
+                <element signature="e#7505#7804#0" expanded="false" />
+                <element signature="e#7879#8072#0" expanded="false" />
+                <element signature="e#8117#8292#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -97,17 +93,20 @@
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxCallSystem/Linux/RunShellCommand.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/HtmlParser.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/InfoPush.py" />
-        <option value="$PROJECT_DIR$/NxExplore/NxInput/iMustang.conf" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxBin/EnTrial.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxStart.py" />
-        <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/Trial/Trial.py" />
-        <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/CheckWebConnectivity.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/HttpDownload.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/DumpInfo.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxSystemInfo.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxSrc/NxCodeFragment/ReExpress.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/Trial/Trial.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxInput/iMustangExceptList.txt" />
-        <option value="$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreWebInfoFortinet.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/CheckWebConnectivity.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/iMustang.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxInput/iMustang.conf" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreWebInfoFortinet.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/CheckLocalStatus.py" />
       </list>
     </option>
   </component>
@@ -141,8 +140,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,33 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NxUsr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxView" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxUsr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxBin" />
+              <option name="myItemId" value="NxProjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -470,73 +443,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/HttpDownload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#20#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxCallSystem/Linux/RunShellCommand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="e#20#52#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/Link2InfoWeb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
-          <folding>
-            <element signature="e#288#359#0" expanded="false" />
-            <element signature="e#398#417#0" expanded="false" />
-            <element signature="e#483#1552#0" expanded="false" />
-            <element signature="e#551#1014#0" expanded="false" />
-            <element signature="e#597#859#0" expanded="false" />
-            <element signature="e#730#859#0" expanded="false" />
-            <element signature="e#894#1014#0" expanded="false" />
-            <element signature="e#1047#1527#0" expanded="false" />
-            <element signature="e#1093#1372#0" expanded="false" />
-            <element signature="e#1238#1372#0" expanded="false" />
-            <element signature="e#1407#1527#0" expanded="false" />
-            <element signature="e#1591#1886#0" expanded="false" />
-            <element signature="e#1626#1866#0" expanded="false" />
-            <element signature="e#1743#1866#0" expanded="false" />
-            <element signature="e#1920#2198#0" expanded="false" />
-            <element signature="e#2059#2178#0" expanded="false" />
-            <element signature="e#3148#3218#0" expanded="false" />
-            <element signature="e#3650#3736#0" expanded="false" />
-            <element signature="e#3796#5941#0" expanded="false" />
-            <element signature="e#3904#4143#0" expanded="false" />
-            <element signature="e#4020#4143#0" expanded="false" />
-            <element signature="e#4332#5506#0" expanded="false" />
-            <element signature="e#4353#5012#0" expanded="false" />
-            <element signature="e#4617#4990#0" expanded="false" />
-            <element signature="e#4780#4911#0" expanded="false" />
-            <element signature="e#5064#5480#0" expanded="false" />
-            <element signature="e#5099#5169#0" expanded="false" />
-            <element signature="e#5228#5391#0" expanded="false" />
-            <element signature="e#5598#5720#0" expanded="false" />
-            <element signature="e#6027#8232#0" expanded="false" />
-            <element signature="e#6128#6368#0" expanded="false" />
-            <element signature="e#6245#6368#0" expanded="false" />
-            <element signature="e#7390#7464#0" expanded="false" />
-            <element signature="e#8300#8560#0" expanded="false" />
-            <element signature="e#8367#8436#0" expanded="false" />
-            <element signature="e#8639#10311#0" expanded="false" />
-            <element signature="e#10372#12281#0" expanded="false" />
-            <element signature="e#12356#14029#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/HtmlParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -557,7 +463,7 @@
         <state relative-caret-position="225">
           <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding>
-            <element signature="e#19#30#0" expanded="true" />
+            <element signature="e#19#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -568,10 +474,10 @@
           <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
             <element signature="e#19#28#0" expanded="true" />
-            <element signature="e#1470#1563#0" expanded="false" />
-            <element signature="e#1669#1773#0" expanded="false" />
-            <element signature="e#1870#1971#0" expanded="false" />
-            <element signature="e#2100#2201#0" expanded="false" />
+            <element signature="e#1560#1653#0" expanded="false" />
+            <element signature="e#1759#1863#0" expanded="false" />
+            <element signature="e#1960#2061#0" expanded="false" />
+            <element signature="e#2190#2291#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -598,7 +504,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-          <folding />
+          <folding>
+            <element signature="e#19#77#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -616,9 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="e#20#52#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,7 +594,7 @@
         <state relative-caret-position="225">
           <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding>
-            <element signature="e#19#30#0" expanded="true" />
+            <element signature="e#19#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -700,10 +605,10 @@
           <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
             <element signature="e#19#28#0" expanded="true" />
-            <element signature="e#1470#1563#0" expanded="false" />
-            <element signature="e#1669#1773#0" expanded="false" />
-            <element signature="e#1870#1971#0" expanded="false" />
-            <element signature="e#2100#2201#0" expanded="false" />
+            <element signature="e#1560#1653#0" expanded="false" />
+            <element signature="e#1759#1863#0" expanded="false" />
+            <element signature="e#1960#2061#0" expanded="false" />
+            <element signature="e#2190#2291#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -758,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/WechatActiveAgent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreDefault.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -815,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxFiles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="139" column="32" selection-start-line="139" selection-start-column="32" selection-end-line="139" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/Info4Us/Infor4Us.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -836,10 +727,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxCallSystem/Linux/RunShellCommand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxLib/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="408" column="20" selection-start-line="408" selection-start-column="20" selection-end-line="408" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxBin/EnTrial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxStart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxBin/EnImustang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/DumpInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="e#19#30#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/HtmlParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#20#90#0" expanded="false" />
             <element signature="e#180#527#0" expanded="false" />
@@ -851,10 +794,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxSrc/NxCodeFragment/ReExpress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/Trial/Trial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/CheckWebConnectivity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxInput/iMustangExceptList.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="839">
+          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/HttpDownload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+          <folding>
+            <element signature="e#20#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxSystemInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/WechatActiveAgent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxInput/iMustang.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreWebInfoFortinet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+          <folding>
+            <element signature="e#19#28#0" expanded="true" />
+            <element signature="e#1560#1653#0" expanded="false" />
+            <element signature="e#1759#1863#0" expanded="false" />
+            <element signature="e#1960#2061#0" expanded="false" />
+            <element signature="e#2190#2291#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/InfoPush.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/Link2InfoWeb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#288#359#0" expanded="false" />
             <element signature="e#398#417#0" expanded="false" />
@@ -898,219 +937,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxCallSystem/Linux/RunShellCommand.py">
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/CheckLocalStatus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="93">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#20#52#0" expanded="false" />
+            <element signature="e#21#30#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxLib/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="408" column="20" selection-start-line="408" selection-start-column="20" selection-end-line="408" selection-end-column="20" />
-          <folding>
-            <element signature="e#25#178#1" expanded="false" />
-            <element signature="e#1262#2228#0" expanded="false" />
-            <element signature="e#1262#1500#1" expanded="false" />
-            <element signature="e#1962#2034#0" expanded="false" />
-            <element signature="e#2306#2746#0" expanded="false" />
-            <element signature="e#2306#2481#1" expanded="false" />
-            <element signature="e#2789#9802#0" expanded="false" />
-            <element signature="e#2947#6588#0" expanded="false" />
-            <element signature="e#3110#6588#0" expanded="false" />
-            <element signature="e#3179#3336#0" expanded="false" />
-            <element signature="e#3952#4042#0" expanded="false" />
-            <element signature="e#4175#4240#0" expanded="false" />
-            <element signature="e#5043#5340#0" expanded="false" />
-            <element signature="e#5507#5566#0" expanded="false" />
-            <element signature="e#6654#7576#0" expanded="false" />
-            <element signature="e#6654#6893#1" expanded="false" />
-            <element signature="e#7024#7355#0" expanded="false" />
-            <element signature="e#7024#7085#0" expanded="false" />
-            <element signature="e#7644#8930#0" expanded="false" />
-            <element signature="e#7644#8082#1" expanded="false" />
-            <element signature="e#8342#8538#0" expanded="false" />
-            <element signature="e#8998#9802#0" expanded="false" />
-            <element signature="e#8998#9134#1" expanded="false" />
-            <element signature="e#9345#9392#0" expanded="false" />
-            <element signature="e#9536#9603#0" expanded="false" />
-            <element signature="e#9846#10234#1" expanded="false" />
-            <element signature="e#10252#10425#0" expanded="false" />
-            <element signature="e#10460#12579#0" expanded="false" />
-            <element signature="e#10460#10522#0" expanded="false" />
-            <element signature="e#10665#10719#0" expanded="false" />
-            <element signature="e#10793#10868#0" expanded="false" />
-            <element signature="e#11112#11163#0" expanded="false" />
-            <element signature="e#11530#11597#0" expanded="false" />
-            <element signature="e#11818#11880#0" expanded="false" />
-            <element signature="e#11959#12030#0" expanded="false" />
-            <element signature="e#12614#12625#0" expanded="false" />
-            <element signature="e#12666#12678#0" expanded="false" />
-            <element signature="e#12728#14212#0" expanded="false" />
-            <element signature="e#12728#13129#1" expanded="false" />
-            <element signature="e#14555#17291#0" expanded="false" />
-            <element signature="e#14555#16500#1" expanded="false" />
-            <element signature="e#17096#17187#0" expanded="false" />
-            <element signature="e#17335#17672#0" expanded="false" />
-            <element signature="e#17335#17570#1" expanded="false" />
-            <element signature="e#17720#18065#0" expanded="false" />
-            <element signature="e#17720#17959#1" expanded="false" />
-            <element signature="e#18110#18450#0" expanded="false" />
-            <element signature="e#18110#18346#1" expanded="false" />
-            <element signature="e#18517#19025#0" expanded="false" />
-            <element signature="e#18517#18951#1" expanded="false" />
-            <element signature="e#19080#19493#0" expanded="false" />
-            <element signature="e#19080#19431#1" expanded="false" />
-            <element signature="e#19550#19968#0" expanded="false" />
-            <element signature="e#19550#19903#1" expanded="false" />
-            <element signature="e#20015#20307#0" expanded="false" />
-            <element signature="e#20015#20253#1" expanded="false" />
-            <element signature="e#20356#22924#0" expanded="false" />
-            <element signature="e#20356#20444#1" expanded="false" />
-            <element signature="e#20453#20521#0" expanded="false" />
-            <element signature="e#20793#20861#0" expanded="false" />
-            <element signature="e#21331#21632#0" expanded="false" />
-            <element signature="e#21422#21622#0" expanded="false" />
-            <element signature="e#22146#22318#0" expanded="false" />
-            <element signature="e#22675#22860#0" expanded="false" />
-            <element signature="e#23012#24000#0" expanded="false" />
-            <element signature="e#23012#23112#1" expanded="false" />
-            <element signature="e#23209#23669#0" expanded="false" />
-            <element signature="e#23396#23459#0" expanded="false" />
-            <element signature="e#23550#23659#0" expanded="false" />
-            <element signature="e#23914#24000#0" expanded="false" />
-            <element signature="e#24042#24420#0" expanded="false" />
-            <element signature="e#24042#24174#1" expanded="false" />
-            <element signature="e#24244#24319#0" expanded="false" />
-            <element signature="e#24451#24563#0" expanded="false" />
-            <element signature="e#24611#24937#0" expanded="false" />
-            <element signature="e#24611#24733#1" expanded="false" />
-            <element signature="e#24975#25130#0" expanded="false" />
-            <element signature="e#25175#25477#0" expanded="false" />
-            <element signature="e#25499#25608#0" expanded="false" />
-            <element signature="e#25499#25586#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxBin/EnTrial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxStart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/Trial/Trial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxBin/EnImustang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/DumpInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="e#19#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/InfoPush.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxInput/iMustangExceptList.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="188" column="9" selection-start-line="188" selection-start-column="9" selection-end-line="188" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxInput/iMustang.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/HttpDownload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding>
-            <element signature="e#20#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreWebInfoFortinet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding>
-            <element signature="e#19#28#0" expanded="true" />
-            <element signature="e#1470#1563#0" expanded="false" />
-            <element signature="e#1669#1773#0" expanded="false" />
-            <element signature="e#1870#1971#0" expanded="false" />
-            <element signature="e#2100#2201#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/CheckWebConnectivity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#19#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/iMustang.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
           <folding>
-            <element signature="e#20#31#0" expanded="true" />
+            <element signature="e#536#972#0" expanded="false" />
+            <element signature="e#666#754#0" expanded="false" />
+            <element signature="e#695#754#0" expanded="false" />
+            <element signature="e#793#856#0" expanded="false" />
+            <element signature="e#995#1113#0" expanded="false" />
+            <element signature="e#1151#1560#0" expanded="false" />
+            <element signature="e#1604#1995#0" expanded="false" />
+            <element signature="e#1843#1966#0" expanded="false" />
+            <element signature="e#1885#1966#0" expanded="false" />
+            <element signature="e#1917#1966#0" expanded="false" />
+            <element signature="e#2026#2772#0" expanded="false" />
+            <element signature="e#2241#2312#0" expanded="false" />
+            <element signature="e#2836#3262#0" expanded="false" />
+            <element signature="e#2918#3235#0" expanded="false" />
+            <element signature="e#3045#3235#0" expanded="false" />
+            <element signature="e#3134#3235#0" expanded="false" />
+            <element signature="e#3293#3354#0" expanded="false" />
+            <element signature="e#3385#3449#0" expanded="false" />
+            <element signature="e#4040#8072#0" expanded="false" />
+            <element signature="e#4115#4217#0" expanded="false" />
+            <element signature="e#4429#4560#0" expanded="false" />
+            <element signature="e#4669#8072#0" expanded="false" />
+            <element signature="e#4917#8072#0" expanded="false" />
+            <element signature="e#5309#5447#0" expanded="false" />
+            <element signature="e#5797#5940#0" expanded="false" />
+            <element signature="e#6450#6622#0" expanded="false" />
+            <element signature="e#6762#7386#0" expanded="false" />
+            <element signature="e#6834#7386#0" expanded="false" />
+            <element signature="e#7505#7804#0" expanded="false" />
+            <element signature="e#7879#8072#0" expanded="false" />
+            <element signature="e#8117#8292#0" expanded="false" />
           </folding>
         </state>
       </provider>

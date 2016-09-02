@@ -12,7 +12,9 @@ from ....NxUsr.NxLib import NxFiles
 
 selectedImageReList = [re.compile(r'^FAD_700D.*\.out$'),
                            re.compile(r'^FAD_1500D.*\.out$'),
-                           re.compile(r'^FAD_VM.*')]
+                           re.compile(r'^FAD_VM.*\.out$'),
+                       re.compile(r'^FAD_VM.*\.ovf\.zip$')
+                       ]
 
 
 
@@ -81,6 +83,11 @@ if not infoReceiver:
     infoReceiver = ['bofei']
 else:
     infoReceiver = infoReceiver.split(',')
+diskThreshold = iMustangConfigObj.getValueOfOption('iMustang', 'diskThreshold')
+if not diskThreshold:
+    diskThreshold = 20
+else:
+    diskThreshold = int(diskThreshold)
 
 
 
