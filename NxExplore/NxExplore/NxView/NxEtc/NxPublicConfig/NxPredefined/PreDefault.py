@@ -47,6 +47,8 @@ NxVarInputPath = NxVarPath+'/NxInput'
 NxVarOutputPath = NxVarPath+'/NxOutput'
 NxVarLogPath = NxVarPath+'/NxLog'
 NxVarResourcesPath = NxVarPath+'/NxResources'
+NxLogGlobal = NxVarLogPath+'/GlobalLogs'
+NxLogProject = NxVarLogPath+'/ProjectLogs'
 
 
 
