@@ -108,11 +108,6 @@ class NxRequests():
 
 
 
-if __name__ == '__main__':
-    #myRequest = NxRequests()
-    #myRequest.addJson('key1', 'value1')
-    #print myRequest.post('http://www.google.com')
-    pass
 
 
 

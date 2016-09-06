@@ -4,6 +4,8 @@ import os
 import re
 #import NxFiles
 import shutil
+import logging
+
 
 
 def removeForce(path):
@@ -31,15 +33,15 @@ def removeForce(path):
         return False
 
 def walkRemovePyc(rootPath):
-    print 'Starting to remove all the ".pyc" files recursively from the directory "' + rootPath + '" ...'
+    logging.warning('Starting to remove all the ".pyc" files recursively from the directory "' + str(rootPath) + '" ...')
     pycPattern = re.compile(r'.*\.pyc$')
     for root, dirs, files in os.walk(rootPath):
         for i in files:
             if pycPattern.match(root+'/'+i):
                 if removeForce(root+'/'+i) == True:
-                    print 'The file "'+root+'/'+i+'" has been removed.'
+                    logging.warning('The file "'+str(root)+'/'+str(i)+'" has been removed.')
                 else:
-                    print 'Removing file "' + root + '/' + i + '" meets error!'
+                    logging.warning('Removing file "' + root + '/' + i + '" meets error!')
 
 def delPycFile(includeParent=True):
     originalWorkingPath= os.getcwd()

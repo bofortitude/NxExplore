@@ -38,7 +38,7 @@ def setSimpleLogging(logFile = None, debug=True, maxBytes=10000000, backupCount=
             logger.handlers.remove(i)
 
     consoleHandler = logging.StreamHandler()
-    formatter = logging.Formatter('[%(asctime)s] %(levelname)s : %(message)s')
+    formatter = logging.Formatter('[%(asctime)s] %(levelname)s: %(message)s')
     consoleHandler.setFormatter(formatter)
     logger.addHandler(consoleHandler)
 

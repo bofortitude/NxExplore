@@ -20,65 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="iMustang.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/iMustang.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
-              <folding>
-                <element signature="e#536#972#0" expanded="false" />
-                <element signature="e#666#754#0" expanded="false" />
-                <element signature="e#695#754#0" expanded="false" />
-                <element signature="e#793#856#0" expanded="false" />
-                <element signature="e#995#1113#0" expanded="false" />
-                <element signature="e#1151#1560#0" expanded="false" />
-                <element signature="e#1604#1995#0" expanded="false" />
-                <element signature="e#1843#1966#0" expanded="false" />
-                <element signature="e#1885#1966#0" expanded="false" />
-                <element signature="e#1917#1966#0" expanded="false" />
-                <element signature="e#2026#2772#0" expanded="false" />
-                <element signature="e#2241#2312#0" expanded="false" />
-                <element signature="e#2836#3262#0" expanded="false" />
-                <element signature="e#2918#3235#0" expanded="false" />
-                <element signature="e#3045#3235#0" expanded="false" />
-                <element signature="e#3134#3235#0" expanded="false" />
-                <element signature="e#3293#3354#0" expanded="false" />
-                <element signature="e#3385#3449#0" expanded="false" />
-                <element signature="e#4040#8072#0" expanded="false" />
-                <element signature="e#4115#4217#0" expanded="false" />
-                <element signature="e#4429#4560#0" expanded="false" />
-                <element signature="e#4669#8072#0" expanded="false" />
-                <element signature="e#4917#8072#0" expanded="false" />
-                <element signature="e#5309#5447#0" expanded="false" />
-                <element signature="e#5797#5940#0" expanded="false" />
-                <element signature="e#6450#6622#0" expanded="false" />
-                <element signature="e#6762#7386#0" expanded="false" />
-                <element signature="e#6834#7386#0" expanded="false" />
-                <element signature="e#7505#7804#0" expanded="false" />
-                <element signature="e#7879#8072#0" expanded="false" />
-                <element signature="e#8117#8292#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckLocalStatus.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/CheckLocalStatus.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-              <folding>
-                <element signature="e#21#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PreWebInfoFortinet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreWebInfoFortinet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="705">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="e#19#28#0" expanded="true" />
                 <element signature="e#1617#1710#0" expanded="false" />
@@ -90,57 +36,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NxCleanup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NxExplore/NxCleanup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#19#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DumpInfo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/DumpInfo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NxConfig.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NxLogging.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxLogging.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+            <state relative-caret-position="585">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding>
-                <element signature="e#19#33#0" expanded="true" />
+                <element signature="e#112#347#0" expanded="false" />
+                <element signature="e#201#259#0" expanded="false" />
+                <element signature="e#384#411#0" expanded="false" />
+                <element signature="e#463#614#0" expanded="false" />
+                <element signature="e#673#906#0" expanded="false" />
+                <element signature="e#951#1008#0" expanded="false" />
+                <element signature="e#1062#1092#0" expanded="false" />
+                <element signature="e#1158#1319#0" expanded="false" />
+                <element signature="e#1394#1528#0" expanded="false" />
+                <element signature="e#1576#1636#0" expanded="false" />
+                <element signature="e#1693#1726#0" expanded="false" />
+                <element signature="e#1781#1914#0" expanded="false" />
+                <element signature="e#1978#2084#0" expanded="false" />
+                <element signature="e#2136#2265#0" expanded="false" />
+                <element signature="e#2303#2319#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trial.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/Trial/Trial.py">
+      <file leaf-file-name="ClearServerNetConfig.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxSetupEnv/ClearServerNetConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
               <folding>
-                <element signature="e#20#34#0" expanded="true" />
+                <element signature="e#20#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,19 +77,43 @@
       <file leaf-file-name="PreDefault.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreDefault.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="390">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iMustang.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NxExplore/NxInput/iMustang.conf">
+      <file leaf-file-name="NxLogging.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxLogging.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TelnetCommandLine.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NxSysTools/General/TelnetCommandLine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+              <folding>
+                <element signature="e#19#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemovePyc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxTools/RemovePyc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+              <folding>
+                <element signature="e#19#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,7 +148,6 @@
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxCallSystem/Linux/RunShellCommand.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/HtmlParser.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/InfoPush.py" />
-        <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxBin/EnTrial.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxStart.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/HttpDownload.py" />
@@ -208,17 +159,25 @@
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/CheckLocalStatus.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxInput/iMustang.conf" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreWebInfoFortinet.py" />
-        <option value="$PROJECT_DIR$/NxExplore/NxCleanup.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/DumpInfo.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreDefault.py" />
-        <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxLogging.py" />
         <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/Trial/Trial.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests2.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests2/PreDefaultReq2.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang2/PredefaultImst2.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxInput/iMustang2.conf" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxTools/RemovePyc.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxLogging.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxCleanup.py" />
+        <option value="$PROJECT_DIR$/NxExplore/NxRoot/NxTrash/fdasfdas.log" />
+        <option value="$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxTestingMate/README.rst" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1916" />
+    <option name="width" value="1920" />
     <option name="height" value="976" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -246,7 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,7 +273,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NxVar" />
+              <option name="myItemId" value="NxProjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -337,129 +295,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NxVar" />
+              <option name="myItemId" value="NxProjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NxLog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxView" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxVar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxLog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GlobalLogs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxView" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxEtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxView" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxEtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxPublicConfig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxExplore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxView" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxEtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxPublicConfig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NxPredefined" />
+              <option name="myItemId" value="NxTestingMate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests2" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -625,10 +481,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1916" height="976" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24895833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -673,117 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/iMustang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#536#972#0" expanded="false" />
-            <element signature="e#666#754#0" expanded="false" />
-            <element signature="e#695#754#0" expanded="false" />
-            <element signature="e#793#856#0" expanded="false" />
-            <element signature="e#995#1113#0" expanded="false" />
-            <element signature="e#1151#1560#0" expanded="false" />
-            <element signature="e#1604#1995#0" expanded="false" />
-            <element signature="e#1843#1966#0" expanded="false" />
-            <element signature="e#1885#1966#0" expanded="false" />
-            <element signature="e#1917#1966#0" expanded="false" />
-            <element signature="e#2026#2772#0" expanded="false" />
-            <element signature="e#2241#2312#0" expanded="false" />
-            <element signature="e#2836#3262#0" expanded="false" />
-            <element signature="e#2918#3235#0" expanded="false" />
-            <element signature="e#3045#3235#0" expanded="false" />
-            <element signature="e#3134#3235#0" expanded="false" />
-            <element signature="e#3293#3354#0" expanded="false" />
-            <element signature="e#3385#3449#0" expanded="false" />
-            <element signature="e#4040#8072#0" expanded="false" />
-            <element signature="e#4115#4217#0" expanded="false" />
-            <element signature="e#4429#4560#0" expanded="false" />
-            <element signature="e#4669#8072#0" expanded="false" />
-            <element signature="e#4917#8072#0" expanded="false" />
-            <element signature="e#5309#5447#0" expanded="false" />
-            <element signature="e#5797#5940#0" expanded="false" />
-            <element signature="e#6450#6622#0" expanded="false" />
-            <element signature="e#6762#7386#0" expanded="false" />
-            <element signature="e#6834#7386#0" expanded="false" />
-            <element signature="e#7505#7804#0" expanded="false" />
-            <element signature="e#7879#8072#0" expanded="false" />
-            <element signature="e#8117#8292#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/InfoPush.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/HttpDownload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxCallSystem/Linux/RunShellCommand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/Link2InfoWeb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/HtmlParser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/CheckWebConnectivity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreWebInfoFortinet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding>
-            <element signature="e#19#28#0" expanded="true" />
-            <element signature="e#1617#1710#0" expanded="false" />
-            <element signature="e#1816#1920#0" expanded="false" />
-            <element signature="e#2017#2118#0" expanded="false" />
-            <element signature="e#2247#2348#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxInput/iMustang.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxSetupEnv/ClearServerNetConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/CheckConnectivity/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -805,13 +550,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxLog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxLog.py" />
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxParameters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -876,13 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxLib/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="408" column="20" selection-start-line="408" selection-start-column="20" selection-end-line="408" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxBin/EnTrial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -901,13 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -953,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/WechatActiveAgent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/InfoPush.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -974,99 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/iMustang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
-          <folding>
-            <element signature="e#536#972#0" expanded="false" />
-            <element signature="e#666#754#0" expanded="false" />
-            <element signature="e#695#754#0" expanded="false" />
-            <element signature="e#793#856#0" expanded="false" />
-            <element signature="e#995#1113#0" expanded="false" />
-            <element signature="e#1151#1560#0" expanded="false" />
-            <element signature="e#1604#1995#0" expanded="false" />
-            <element signature="e#1843#1966#0" expanded="false" />
-            <element signature="e#1885#1966#0" expanded="false" />
-            <element signature="e#1917#1966#0" expanded="false" />
-            <element signature="e#2026#2772#0" expanded="false" />
-            <element signature="e#2241#2312#0" expanded="false" />
-            <element signature="e#2836#3262#0" expanded="false" />
-            <element signature="e#2918#3235#0" expanded="false" />
-            <element signature="e#3045#3235#0" expanded="false" />
-            <element signature="e#3134#3235#0" expanded="false" />
-            <element signature="e#3293#3354#0" expanded="false" />
-            <element signature="e#3385#3449#0" expanded="false" />
-            <element signature="e#4040#8072#0" expanded="false" />
-            <element signature="e#4115#4217#0" expanded="false" />
-            <element signature="e#4429#4560#0" expanded="false" />
-            <element signature="e#4669#8072#0" expanded="false" />
-            <element signature="e#4917#8072#0" expanded="false" />
-            <element signature="e#5309#5447#0" expanded="false" />
-            <element signature="e#5797#5940#0" expanded="false" />
-            <element signature="e#6450#6622#0" expanded="false" />
-            <element signature="e#6762#7386#0" expanded="false" />
-            <element signature="e#6834#7386#0" expanded="false" />
-            <element signature="e#7505#7804#0" expanded="false" />
-            <element signature="e#7879#8072#0" expanded="false" />
-            <element signature="e#8117#8292#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxInput/iMustang.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/CheckLocalStatus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-          <folding>
-            <element signature="e#21#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxTools/RemovePyc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxFiles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreWebInfoFortinet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#28#0" expanded="true" />
-            <element signature="e#1617#1710#0" expanded="false" />
-            <element signature="e#1816#1920#0" expanded="false" />
-            <element signature="e#2017#2118#0" expanded="false" />
-            <element signature="e#2247#2348#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxCleanup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#67#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1078,38 +707,309 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreDefault.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/Trial/Trial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang/iMustang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxLib/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="407" column="19" selection-start-line="407" selection-start-column="19" selection-end-line="407" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests2.py" />
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="73" column="68" selection-start-line="73" selection-start-column="68" selection-end-line="73" selection-end-column="68" />
           <folding>
-            <element signature="e#20#34#0" expanded="true" />
+            <element signature="e#21#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/WechatActiveAgent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5535">
+          <caret line="376" column="21" selection-start-line="376" selection-start-column="21" selection-end-line="376" selection-end-column="21" />
+          <folding>
+            <element signature="e#20#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests2/PreDefaultReq2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxMix/iMustang2/PredefaultImst2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxInput/iMustang.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxInput/iMustang2.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding>
+            <element signature="e#93#257#0" expanded="false" />
+            <element signature="e#93#201#1" expanded="false" />
+            <element signature="e#285#303#0" expanded="false" />
+            <element signature="e#338#512#0" expanded="false" />
+            <element signature="e#338#427#1" expanded="false" />
+            <element signature="e#445#479#0" expanded="false" />
+            <element signature="e#547#743#0" expanded="false" />
+            <element signature="e#768#795#0" expanded="false" />
+            <element signature="e#819#846#0" expanded="false" />
+            <element signature="e#869#895#0" expanded="false" />
+            <element signature="e#920#1032#0" expanded="false" />
+            <element signature="e#1061#1519#0" expanded="false" />
+            <element signature="e#1061#1147#1" expanded="false" />
+            <element signature="e#1436#1497#0" expanded="false" />
+            <element signature="e#1547#2008#0" expanded="false" />
+            <element signature="e#1547#1640#1" expanded="false" />
+            <element signature="e#1926#1986#0" expanded="false" />
+            <element signature="e#2034#2209#0" expanded="false" />
+            <element signature="e#2099#2136#0" expanded="false" />
+            <element signature="e#2238#2670#0" expanded="false" />
+            <element signature="e#2238#2310#1" expanded="false" />
+            <element signature="e#2402#2499#0" expanded="false" />
+            <element signature="e#2419#2458#0" expanded="false" />
+            <element signature="e#2538#2639#0" expanded="false" />
+            <element signature="e#2555#2598#0" expanded="false" />
+            <element signature="e#2696#2770#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxTools/RemovePyc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding>
+            <element signature="e#19#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreWebInfoFortinet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#28#0" expanded="true" />
+            <element signature="e#1617#1710#0" expanded="false" />
+            <element signature="e#1816#1920#0" expanded="false" />
+            <element signature="e#2017#2118#0" expanded="false" />
+            <element signature="e#2247#2348#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxLogging.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        <state relative-caret-position="209">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxSysTools/General/TelnetCommandLine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
-            <element signature="e#19#33#0" expanded="true" />
+            <element signature="e#19#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxSysTools/Linux/NxShell/ResetService.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxEtc/NxPublicConfig/NxPredefined/PreDefault.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxRoot/NxTrash/fdasfdas.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxCleanup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="e#19#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxRequests2/WechatActiveAgent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#20#29#0" expanded="true" />
+            <element signature="e#200#218#0" expanded="false" />
+            <element signature="e#814#998#0" expanded="false" />
+            <element signature="e#814#859#0" expanded="false" />
+            <element signature="e#1873#2011#0" expanded="false" />
+            <element signature="e#2334#2836#0" expanded="false" />
+            <element signature="e#2355#2579#0" expanded="false" />
+            <element signature="e#2616#2810#0" expanded="false" />
+            <element signature="e#2925#3010#0" expanded="false" />
+            <element signature="e#3101#3184#0" expanded="false" />
+            <element signature="e#3249#3560#0" expanded="false" />
+            <element signature="e#3624#3700#0" expanded="false" />
+            <element signature="e#4307#6584#0" expanded="false" />
+            <element signature="e#4424#4574#0" expanded="false" />
+            <element signature="e#4459#4574#0" expanded="false" />
+            <element signature="e#4637#6420#0" expanded="false" />
+            <element signature="e#4943#5291#0" expanded="false" />
+            <element signature="e#5040#5229#0" expanded="false" />
+            <element signature="e#5395#5551#0" expanded="false" />
+            <element signature="e#5586#6420#0" expanded="false" />
+            <element signature="e#5850#6346#0" expanded="false" />
+            <element signature="e#6447#6584#0" expanded="false" />
+            <element signature="e#6688#12620#0" expanded="false" />
+            <element signature="e#6688#6720#0" expanded="false" />
+            <element signature="e#7729#7871#0" expanded="false" />
+            <element signature="e#7782#7871#0" expanded="false" />
+            <element signature="e#7908#8052#0" expanded="false" />
+            <element signature="e#7962#8052#0" expanded="false" />
+            <element signature="e#8087#8227#0" expanded="false" />
+            <element signature="e#8139#8227#0" expanded="false" />
+            <element signature="e#8305#8404#0" expanded="false" />
+            <element signature="e#8519#8684#0" expanded="false" />
+            <element signature="e#8721#8885#0" expanded="false" />
+            <element signature="e#8920#9072#0" expanded="false" />
+            <element signature="e#9163#9262#0" expanded="false" />
+            <element signature="e#9345#12502#0" expanded="false" />
+            <element signature="e#9625#9721#0" expanded="false" />
+            <element signature="e#9774#9873#0" expanded="false" />
+            <element signature="e#9924#10017#0" expanded="false" />
+            <element signature="e#10052#12173#0" expanded="false" />
+            <element signature="e#10381#11698#0" expanded="false" />
+            <element signature="e#10486#11589#0" expanded="false" />
+            <element signature="e#10556#10905#0" expanded="false" />
+            <element signature="e#10998#11192#0" expanded="false" />
+            <element signature="e#11251#11589#0" expanded="false" />
+            <element signature="e#11742#12173#0" expanded="false" />
+            <element signature="e#11933#12140#0" expanded="false" />
+            <element signature="e#12211#12475#0" expanded="false" />
+            <element signature="e#12663#14937#0" expanded="false" />
+            <element signature="e#12816#14937#0" expanded="false" />
+            <element signature="e#12902#14736#0" expanded="false" />
+            <element signature="e#13103#14283#0" expanded="false" />
+            <element signature="e#13208#14174#0" expanded="false" />
+            <element signature="e#13278#13627#0" expanded="false" />
+            <element signature="e#13720#13918#0" expanded="false" />
+            <element signature="e#13977#14174#0" expanded="false" />
+            <element signature="e#14327#14736#0" expanded="false" />
+            <element signature="e#14496#14703#0" expanded="false" />
+            <element signature="e#14773#14937#0" expanded="false" />
+            <element signature="e#15033#18417#0" expanded="false" />
+            <element signature="e#15033#15074#0" expanded="false" />
+            <element signature="e#16033#18417#0" expanded="false" />
+            <element signature="e#16160#18186#0" expanded="false" />
+            <element signature="e#16553#17733#0" expanded="false" />
+            <element signature="e#16658#17624#0" expanded="false" />
+            <element signature="e#16728#17077#0" expanded="false" />
+            <element signature="e#17170#17368#0" expanded="false" />
+            <element signature="e#17427#17624#0" expanded="false" />
+            <element signature="e#17777#18186#0" expanded="false" />
+            <element signature="e#17946#18153#0" expanded="false" />
+            <element signature="e#18224#18390#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxUsr/NxLib/NxConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="e#112#347#0" expanded="false" />
+            <element signature="e#201#259#0" expanded="false" />
+            <element signature="e#384#411#0" expanded="false" />
+            <element signature="e#463#614#0" expanded="false" />
+            <element signature="e#673#906#0" expanded="false" />
+            <element signature="e#951#1008#0" expanded="false" />
+            <element signature="e#1062#1092#0" expanded="false" />
+            <element signature="e#1158#1319#0" expanded="false" />
+            <element signature="e#1394#1528#0" expanded="false" />
+            <element signature="e#1576#1636#0" expanded="false" />
+            <element signature="e#1693#1726#0" expanded="false" />
+            <element signature="e#1781#1914#0" expanded="false" />
+            <element signature="e#1978#2084#0" expanded="false" />
+            <element signature="e#2136#2265#0" expanded="false" />
+            <element signature="e#2303#2319#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxTestingMate/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NxExplore/NxView/NxProjects/NxSetupEnv/ClearServerNetConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+          <folding>
+            <element signature="e#20#69#0" expanded="true" />
           </folding>
         </state>
       </provider>

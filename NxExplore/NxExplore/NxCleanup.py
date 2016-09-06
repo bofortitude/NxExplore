@@ -1,9 +1,10 @@
 #!/usr/bin/python
 
-from NxView.NxUsr.NxLib.DumpInfo import dumpInfo
 from NxView.NxEtc.NxPublicConfig.NxPredefined.PreDefault import *
 from NxView.NxTools import RemovePyc
 from NxView.NxUsr.NxLib import NxFiles
+from NxView.NxUsr.NxLib.NxLogging import setSimpleLogging
+import logging
 
 
 exceptList = [
@@ -13,53 +14,64 @@ exceptList = [
 ]
 
 
+setSimpleLogging()
 
 
-dumpInfo('Clean up the .pyc file ...')
+
+logging.info('Clean up the files in '+str(NxExploreRootPath)+'/NxTrash'+' ...')
+filesInTrash = NxFiles.listDir(str(NxExploreRootPath)+'/NxTrash')
+for o in filesInTrash:
+    if o not in exceptList:
+        NxFiles.removeForce(str(NxExploreRootPath)+'/NxTrash/'+str(o))
+        logging.warning(str(NxExploreRootPath)+'/NxTrash/'+str(o)+' has been removed.')
+
+
+
+logging.info('Clean up the .pyc file ...')
 RemovePyc.delPycFile()
 
-dumpInfo('Clean up the files in '+str(NxRunPath)+' ...')
+logging.info('Clean up the files in '+str(NxRunPath)+' ...')
 filesInRun = NxFiles.listDir(NxRunPath)
 for i in filesInRun:
     if i not in exceptList:
         NxFiles.removeForce(NxRunPath+'/'+str(i))
-        dumpInfo(NxRunPath+'/'+str(i)+' has been removed.')
+        logging.warning(NxRunPath+'/'+str(i)+' has been removed.')
 
 
 
-dumpInfo('Clean up the files in '+str(NxVarLogPath)+' ...')
-dumpInfo('Clean up the files in '+str(NxVarLogPath)+'/'+'GlobalLogs ...')
+logging.info('Clean up the files in '+str(NxVarLogPath)+' ...')
+logging.info('Clean up the files in '+str(NxVarLogPath)+'/'+'GlobalLogs ...')
 filesInGlobalLog = NxFiles.listDir(str(NxVarLogPath)+'/'+'GlobalLogs')
 if filesInGlobalLog:
     for j in filesInGlobalLog:
         if j not in exceptList:
             NxFiles.removeForce(str(NxVarLogPath)+'/'+'GlobalLogs/'+str(j))
-            dumpInfo(str(NxVarLogPath)+'/'+'GlobalLogs/'+str(j)+' has been removed.')
+            logging.warning(str(NxVarLogPath)+'/'+'GlobalLogs/'+str(j)+' has been removed.')
 
-dumpInfo('Clean up the files in '+str(NxVarLogPath)+'/'+'ProjectLogs ...')
+logging.info('Clean up the files in '+str(NxVarLogPath)+'/'+'ProjectLogs ...')
 filesInProjectlog = NxFiles.listDir(str(NxVarLogPath)+'/'+'ProjectLogs')
 if filesInProjectlog:
     for k in filesInProjectlog:
         if k not in exceptList:
             NxFiles.removeForce(str(NxVarLogPath)+'/'+'ProjectLogs/'+k)
-            dumpInfo(str(NxVarLogPath)+'/'+'ProjectLogs/'+k+' has been removed.')
+            logging.warning(str(NxVarLogPath)+'/'+'ProjectLogs/'+str(k)+' has been removed.')
 
-dumpInfo('Clean up the files in '+NxTmpPath+' ...')
-dumpInfo('Clean up the files in '+NxTmpExchangePath+' ...')
+logging.info('Clean up the files in '+str(NxTmpPath)+' ...')
+logging.info('Clean up the files in '+str(NxTmpExchangePath)+' ...')
 filesInExchange = NxFiles.listDir(NxTmpExchangePath)
 if filesInExchange:
     for l in filesInExchange:
         if l not in exceptList:
             NxFiles.removeForce(NxTmpExchangePath+'/'+l)
-            dumpInfo(NxTmpExchangePath+'/'+l+' has been removed.')
+            logging.warning(NxTmpExchangePath+'/'+str(l)+' has been removed.')
 
-dumpInfo('Clean up the files in '+NxTmpTrialPath+' ...')
+logging.info('Clean up the files in '+str(NxTmpTrialPath)+' ...')
 filesInTmpTrial = NxFiles.listDir(NxTmpTrialPath)
 if filesInTmpTrial:
     for m in filesInTmpTrial:
         if m not in exceptList:
             NxFiles.removeForce(NxTmpTrialPath+'/'+m)
-            dumpInfo(NxTmpTrialPath+'/'+m+' has been removed.')
+            logging.warning(str(NxTmpTrialPath)+'/'+str(m)+' has been removed.')
 
 
 
