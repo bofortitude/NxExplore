@@ -73,7 +73,12 @@ if filesInTmpTrial:
             NxFiles.removeForce(NxTmpTrialPath+'/'+m)
             logging.warning(str(NxTmpTrialPath)+'/'+str(m)+' has been removed.')
 
-
+logging.info('Clean up the geo_ip_sub folder ...')
+geoIpSubParentFolder = NxUsrLibPath+'/NxCallSystem/ADC/IpLibrary'
+if NxFiles.isDir(geoIpSubParentFolder):
+    if NxFiles.isDir(geoIpSubParentFolder+'/geo_ip_sub'):
+        NxFiles.removeForce(geoIpSubParentFolder+'/geo_ip_sub')
+        logging.warning(geoIpSubParentFolder+'/geo_ip_sub'+' has been removed.')
 
 
 
