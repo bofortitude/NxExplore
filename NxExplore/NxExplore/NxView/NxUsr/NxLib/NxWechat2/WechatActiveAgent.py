@@ -6,9 +6,10 @@ import time
 import sys
 
 import NxRequests
-import NxFiles
+from .. import NxFiles
 from DumpInfo import dumpInfo
-from ...NxEtc.NxPublicConfig.NxPredefined import PreDefault as PredefinedDefault
+from ....NxEtc.NxPublicConfig.NxPredefined import PreDefault as PredefinedDefault
+import logging
 
 
 # accessTokenFile:
@@ -71,8 +72,7 @@ class WechatActive():
             return False
 
     def _getAndWriteToken(self):
-        if self.debug:
-            dumpInfo('Starting to get access_token now...')
+        logging.debug('Starting to get access_token now...')
 
         self.sender.resetSession()
         isQueryOk = False
@@ -83,33 +83,31 @@ class WechatActive():
                 isQueryOk = True
                 break
             except:
-                dumpInfo('Getting access_token meets exception!')
+                logging.warning('Getting access_token meets exception!')
                 e = sys.exc_info()[0]
-                if self.debug:
-                    dumpInfo(e, raw=True)
+                logging.debug(str(e))
                 isQueryOk = False
             time.sleep(1)
 
         if not isQueryOk:
             return False
 
-        if self.debug:
-            dumpInfo('The response code is:')
-            dumpInfo(accessTokenResponse, raw=True)
+
+        logging.debug('The response code is:')
+        logging.debug(str(accessTokenResponse))
         myAccessTokenDict = accessTokenResponse.json()
-        if self.debug:
-            dumpInfo('The response json is:')
-            dumpInfo(myAccessTokenDict, raw=True)
+        logging.debug('The response json is:')
+        logging.debug(str(myAccessTokenDict))
         if 'access_token' not in myAccessTokenDict:
-            dumpInfo('Getting access_token fails!')
+            logging.info('Getting access_token fails!')
             if 'errcode' in myAccessTokenDict:
-                dumpInfo('errcode is '+str(myAccessTokenDict['errcode'])+'.')
+                logging.info('errcode is '+str(myAccessTokenDict['errcode'])+'.')
             if 'errmsg' in myAccessTokenDict:
-                dumpInfo('errmsg is '+str(myAccessTokenDict['errmsg'])+'.')
+                logging.info('errmsg is '+str(myAccessTokenDict['errmsg'])+'.')
             return False
 
         if 'expires_in' not in myAccessTokenDict:
-            dumpInfo('expires_in is not in the response json!')
+            logging.info('expires_in is not in the response json!')
             return False
         self.accessTokenDict = myAccessTokenDict
         self.accessTokenDict['expiresTime'] = self.getExpireTime(self.accessTokenDict['expires_in'])
@@ -123,17 +121,14 @@ class WechatActive():
         return True
 
     def getAccessToken(self):
-        if self.debug:
-            dumpInfo('Starting to get access_token ...')
+        logging.debug('Starting to get access_token ...')
         if self.accessTokenDict:
             if self.isValid():
-                if self.debug:
-                    dumpInfo('The access_token in the object is valid.')
+                logging.debug('The access_token in the object is valid.')
                 return True
 
         if NxFiles.isFile(self.accessTokenFile):
-            if self.debug:
-                dumpInfo('Starting to verify the access_token file "'+str(self.accessTokenFile)+'" ...')
+            logging.debug('Starting to verify the access_token file "'+str(self.accessTokenFile)+'" ...')
             isFileValid = False
             myTokenFile = open(self.accessTokenFile)
             fileExpiresTime = myTokenFile.readline()
@@ -151,16 +146,14 @@ class WechatActive():
                 isFileValid = False
 
             if not isFileValid:
-                if self.debug:
-                    dumpInfo('Access_token file "'+str(self.accessTokenFile)+'" is invalid.')
+                logging.debug('Access_token file "'+str(self.accessTokenFile)+'" is invalid.')
                 return self._getAndWriteToken()
             else:
                 fileExpiresIn = fileExpiresIn.replace('\n', '')
                 fileAccessToken = fileAccessToken.replace('\n', '')
                 fileExpiresTime = fileExpiresTime.replace('\n', '')
                 if int(fileExpiresTime) > int(time.time()):
-                    if self.debug:
-                        dumpInfo('The access_token in access_token file "'+str(self.accessTokenFile)+'" is valid.')
+                    logging.debug('The access_token in access_token file "'+str(self.accessTokenFile)+'" is valid.')
                     if not self.accessTokenDict:
                         self.accessTokenDict = {}
                     self.accessTokenDict['expiresTime'] = int(fileExpiresTime)
@@ -170,8 +163,7 @@ class WechatActive():
                 else:
                     return self._getAndWriteToken()
         else:
-            if self.debug:
-                dumpInfo('There is no file "'+str(self.accessTokenFile)+'" .')
+            logging.debug('There is no file "'+str(self.accessTokenFile)+'" .')
             return self._getAndWriteToken()
 
     def sendText(self, agentId, message, toUserList=None, toPartyList=None, toTagList=None):
@@ -204,15 +196,15 @@ class WechatActive():
 
         if toUserList:
             if not isinstance(toUserList, list):
-                dumpInfo('The parameter toUserList you pass is not a list!')
+                logging.info('The parameter toUserList you pass is not a list!')
                 return False
         if toPartyList:
             if not isinstance(toPartyList, list):
-                dumpInfo('The parameter toPartyList you pass is not a list!')
+                logging.info('The parameter toPartyList you pass is not a list!')
                 return False
         if toTagList:
             if not isinstance(toTagList, list):
-                dumpInfo('The parameter toTagList you pass is not a list!')
+                logging.info('The parameter toTagList you pass is not a list!')
                 return False
         if not toUserList and not toPartyList and not toTagList:
             dumpInfo('One of the toUserList, toPartyList, toTagList should be given!')

@@ -2,6 +2,9 @@
 
 import time
 import subprocess
+import logging
+
+
 
 
 from ....NxUsr.NxLib.WechatActiveAgent import WechatActive
@@ -13,15 +16,15 @@ def checkSubnet(dstIp):
     subnetFailCount = 0
     command = 'ping '+str(dstIp)+' -c 1'
     while True:
-        print 'Starting to ping destination ...'
+        logging.info('Starting to ping destination ...')
         shell_run = subprocess.call(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
         if shell_run == 0:
-            print 'Destination is reachable.'
+            logging.info('Destination is reachable.')
             subnetOkCount += 1
             subnetFailCount = 0
         else:
-            print 'Destination is unreachable.'
+            logging.info('Destination is unreachable.')
             subnetOkCount = 0
             subnetFailCount += 1
 

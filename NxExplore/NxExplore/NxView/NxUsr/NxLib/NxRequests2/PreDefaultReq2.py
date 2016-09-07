@@ -2,7 +2,7 @@
 
 
 
-userAgentName = 'NxRequests2/by NxRequests2(Bo Fei)'
+userAgentName = 'NxRequests2/by NxRequests2'
 timeout = 300
 
 
