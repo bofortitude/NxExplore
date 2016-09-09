@@ -102,7 +102,7 @@ def startCheckingDisk():
 
 
 def mainEn(*args, **kwargs):
-    logging.info('Starting the whole iMustang process ...')
+    logging.info('Starting the whole iMustang2 process ...')
     #InfoPush.pushInfo('[172.22.15.138] iMustang has been restarted. ('+str(time.ctime())+')')
     InfoPush.send2Me('[172.22.15.138] iMustang2 has been restarted. ('+str(time.ctime())+')')
 
@@ -132,7 +132,7 @@ def mainEn(*args, **kwargs):
 
             # in selected main version list
             for i in selectedMainVersionList:
-
+                logging.info('Current main version is '+str(i)+' .')
                 # select the build list to be checked
                 selectedBuildList = selectBuildList(myLink, i)
 
@@ -168,11 +168,14 @@ def mainEn(*args, **kwargs):
                     # check imageToDownload and if build over
                     if imageToDownload == []:
                         if len(selectedBuildList) == len(remoteImageSizeDict):
+                            logging.info('(Remote Image size dict) "'+str(remoteImageSizeDict)+'" = (Selected build list) "'+str(selectedBuildList)+'" .')
                             if j in buildOverDict:
                                 buildOverDict[j] = int(buildOverDict[j])+1
                             else:
                                 buildOverDict[j] = 1
                         else:
+                            logging.warning('(Remote Image size dict) "' + str(
+                                remoteImageSizeDict) + '" != (Selected build list) "' + str(selectedBuildList) + '" .')
                             buildOverDict[j] = 0
                     else:
                         buildOverDict[j] = 0
@@ -202,8 +205,8 @@ def mainEn(*args, **kwargs):
                         logging.info('All threads over.')
 
         except Exception as e:
-            logging.info('Meets global exception in this round checking and downloading:')
-            logging.info(str(e))
+            logging.warning('Meets global exception in this round checking and downloading:')
+            logging.debug(str(e))
             InfoPush.send2Me('[172.22.15.138 exception!]:'+str(e))
         wait4Next()
 

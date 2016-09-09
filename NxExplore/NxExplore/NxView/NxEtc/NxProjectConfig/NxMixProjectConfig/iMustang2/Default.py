@@ -42,7 +42,7 @@ fileExceptBuildList = inputPath+'/'+iMustang2ExceptListName
 # config from iMustang2.conf file
 
 
-NxLogging.setSimpleLogging()
+NxLogging.setSimpleLogging(debug=True)
 
 if not NxFiles.isFile(configPath):
     logging.warning('The config file '+str(configPath)+' does not exist, exit now !!!')
