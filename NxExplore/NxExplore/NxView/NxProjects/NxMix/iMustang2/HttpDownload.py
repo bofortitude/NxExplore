@@ -3,12 +3,11 @@
 
 import threading
 import time
+import logging
 
 
-from Link2InfoWeb import Link2InfoWeb
 
 from ....NxUsr.NxLib.NxCallSystem.Linux.RunShellCommand import RunShellCommand
-from ....NxUsr.NxLib.DumpInfo import dumpInfo
 from ....NxLib import requests
 
 
@@ -30,12 +29,12 @@ class WgetDownload(): # Not available
         self.CommandRun = RunShellCommand()
 
     def download(self, url, cookie, dstPath):
-        dumpInfo('Starting to download via wget command, the url is "'+str(url)+'" , the cookie is "'+str(cookie)+'", the dstPath is "'+str(dstPath)+'" .')
+        logging.info('Starting to download via wget command, the url is "'+str(url)+'" , the cookie is "'+str(cookie)+'", the dstPath is "'+str(dstPath)+'" .')
         imageName = str(url).split('/')[-1]
         downloadCommand = 'wget --timeout '+str(self.timeout)+' --tries='+str(self.tries)\
                           +' --no-check-certificate --no-cookies --header "Cookie: _cmportal='+str(cookie)+'" '+str(url)+' -O '+dstPath+'/'+imageName
-        dumpInfo('The wget command is:')
-        dumpInfo(downloadCommand, raw=True)
+        logging.info('The wget command is:')
+        logging.info(str(downloadCommand))
         self.CommandRun.addRunningCommand(downloadCommand)
 
     def wait(self):

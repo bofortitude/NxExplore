@@ -3,12 +3,12 @@
 
 import time
 import multiprocessing
+import logging
 
 
-from ....NxEtc.NxPublicConfig.NxPredefined.PreWebInfoFortinet import *
+from ....NxEtc.NxProjectConfig.NxMixProjectConfig.iMustang2.Default import *
 from .Link2InfoWeb import *
 from ....NxUsr.NxLib import NxFiles
-from ....NxUsr.NxLib.DumpInfo import dumpInfo
 from ....NxUsr.NxLib.NxConfig import NxConfig
 import HttpDownload
 from ....NxUsr.NxLib.NxCallSystem.Linux.RunShellCommand import runShellCmd
@@ -32,12 +32,12 @@ def getSelectedBuildList(buildListOnSite):
         if i not in exceptList:
             selectedBuildList.append(i)
 
-    dumpInfo('The selected build list is:')
-    dumpInfo(selectedBuildList, raw=True)
+    logging.info('The selected build list is:')
+    logging.info(str(selectedBuildList))
     return selectedBuildList
 
 def wait4Next():
-    dumpInfo('Sleep ' + str(checkInterval) + 's for next round checking and downloading...')
+    logging.info('Sleep ' + str(checkInterval) + 's for next round checking and downloading...')
     time.sleep(checkInterval)
 
 def selectBuildList(myLink, i):
@@ -102,20 +102,20 @@ def startCheckingDisk():
 
 
 def mainEn(*args, **kwargs):
-    dumpInfo('Starting the whole iMustang process ...')
+    logging.info('Starting the whole iMustang process ...')
     #InfoPush.pushInfo('[172.22.15.138] iMustang has been restarted. ('+str(time.ctime())+')')
-    InfoPush.send2Me('[172.22.15.138] iMustang has been restarted. ('+str(time.ctime())+')')
+    InfoPush.send2Me('[172.22.15.138] iMustang2 has been restarted. ('+str(time.ctime())+')')
 
-    dumpInfo('Starting the process of checking connectivity ....')
+    logging.info('Starting the process of checking connectivity ....')
     startCheckingConn()
 
-    dumpInfo('Starting the process of checking disk usage ...')
+    logging.info('Starting the process of checking disk usage ...')
     startCheckingDisk()
 
 
     buildOverDict = {}
     while True:
-        dumpInfo('iMustang new round checking and downloading ...')
+        logging.info('iMustang2 new round checking and downloading ...')
         try:
             myLink = Link2InfoWeb()
             if not myLink.login():
@@ -162,8 +162,8 @@ def mainEn(*args, **kwargs):
 
                     # get image list to download
                     imageToDownload = getDownloadList(remoteImageSizeDict, localBuildPath)
-                    dumpInfo('The image list to download is:')
-                    dumpInfo(imageToDownload, raw=True)
+                    logging.info('The image list to download is:')
+                    logging.info(str(imageToDownload))
 
                     # check imageToDownload and if build over
                     if imageToDownload == []:
@@ -180,30 +180,30 @@ def mainEn(*args, **kwargs):
                     if j in buildOverDict:
                         if int(buildOverDict[j]) >= checkOverCount:
                             del buildOverDict[j]
-                            dumpInfo('Add the build number '+str(j)+' to file '+str(fileExceptBuildList)+' .')
+                            logging.info('Add the build number '+str(j)+' to file '+str(fileExceptBuildList)+' .')
                             myFile = open(fileExceptBuildList, 'a')
                             myFile.write(str(j) + '\n')
                             myFile.close()
-                            dumpInfo('Sending the message to receivers '+str(infoReceiver)+' ...')
+                            logging.info('Sending the message to receivers '+str(infoReceiver)+' ...')
                             InfoPush.pushInfo('All selected images of '+str(j)+' has been downloaded over, you can check it on '+str(localBuildPath)+' .')
 
 
                     downloadThreadList = []
                     for ima in imageToDownload:
-                        dumpInfo('Starting the thread to download '+str(ima)+' ...')
+                        logging.info('Starting the thread to download '+str(ima)+' ...')
                         downloader = HttpDownload.PyRequestsDownload(currentImageListUrl+ima, myLink.returnCookies(), localBuildPath)
                         downloader.start()
                         downloadThreadList.append(downloader)
 
                     if downloadThreadList != []:
-                        dumpInfo('Waiting for all threads over...')
+                        logging.info('Waiting for all threads over...')
                         for thrd in downloadThreadList:
                             thrd.join()
-                        dumpInfo('All threads over.')
+                        logging.info('All threads over.')
 
         except Exception as e:
-            dumpInfo('Meets global exception in this round checking and downloading:')
-            dumpInfo(e, raw=True)
+            logging.info('Meets global exception in this round checking and downloading:')
+            logging.info(str(e))
             InfoPush.send2Me('[172.22.15.138 exception!]:'+str(e))
         wait4Next()
 

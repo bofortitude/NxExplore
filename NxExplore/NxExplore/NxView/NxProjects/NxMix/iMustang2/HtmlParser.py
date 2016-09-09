@@ -1,7 +1,8 @@
 #!/usr/bin/python
 
 
-from ....NxEtc.NxPublicConfig.NxPredefined.PreWebInfoFortinet import *
+
+from ....NxEtc.NxProjectConfig.NxMixProjectConfig.iMustang2.Default import *
 from bs4 import BeautifulSoup
 
 
