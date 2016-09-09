@@ -15,8 +15,11 @@ def checkSubnet():
     subnetFailCount = 0
     command = 'ping '+str(dstIp)+' -c 1'
 
+    logger = logging.getLogger()
+
+    '''
     logger = logging.getLogger('checkSubnet')
-    logger.setLevel(logging.INFO)
+    logger.setLevel(logging.DEBUG)
 
     consoleHandler = logging.StreamHandler()
     formatter = logging.Formatter('[%(asctime)s] %(levelname)s: %(message)s')
@@ -28,6 +31,7 @@ def checkSubnet():
         rotatingFileHandler = logging.handlers.RotatingFileHandler(logPath, maxBytes=10000000, backupCount=3)
         rotatingFileHandler.setFormatter(formatter)
         logger.addHandler(rotatingFileHandler)
+    '''
 
     while True:
         try:

@@ -57,7 +57,7 @@ logDirectory = iMustang2ConfigObj.getValueOfOption(defaultSection, 'logDirectory
 if not logDirectory:
     NxLogging.setSimpleLogging()
 else:
-    NxLogging.setSimpleLogging(logFile=logDirectory+'/'+str(mainLogName))
+    NxLogging.setConcurrentLogging(logFile=logDirectory+'/'+str(mainLogName))
 
 username = iMustang2ConfigObj.getValueOfOption(defaultSection, 'username')
 if username == False:

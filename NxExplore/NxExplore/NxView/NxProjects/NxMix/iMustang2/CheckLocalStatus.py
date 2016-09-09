@@ -20,8 +20,10 @@ def checkDiskUsage(checkInterval=120):
     threshold = diskThreshold
     buildFolderPattern = re.compile(r'^build\d+$')
 
+    logger = logging.getLogger()
+    '''
     logger = logging.getLogger('checkDiskUsage')
-    logger.setLevel(logging.INFO)
+    logger.setLevel(logging.DEBUG)
 
     consoleHandler = logging.StreamHandler()
     formatter = logging.Formatter('[%(asctime)s] %(levelname)s: %(message)s')
@@ -33,6 +35,7 @@ def checkDiskUsage(checkInterval=120):
         rotatingFileHandler = logging.handlers.RotatingFileHandler(logPath, maxBytes=10000000, backupCount=3)
         rotatingFileHandler.setFormatter(formatter)
         logger.addHandler(rotatingFileHandler)
+    '''
 
 
     while True:
