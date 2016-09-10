@@ -141,9 +141,17 @@ def mainEn(*args, **kwargs):
     startCheckingDisk()
 
 
+    globalRunTime = 0
+    aliveNotificationInterval = int(24*3600/checkInterval)
     buildOverDict = {}
     while True:
         logging.info('iMustang2 new round checking and downloading ...')
+        if globalRunTime >= aliveNotificationInterval:
+            InfoPush.pushInfo('[172.22.15.138] iMustang2 is alive.(This message will be pushed about every 24 hours to prove alive.)')
+            globalRunTime = 0
+        else:
+            globalRunTime += 1
+
         try:
             myLink = Link2InfoWeb()
             if not myLink.login():
@@ -164,7 +172,7 @@ def mainEn(*args, **kwargs):
                     logging.warning('The current main version is None!!!')
                     wait4Next()
                     continue
-                logging.info('Current main version is '+str(i)+' .')
+                logging.debug('Current main version is '+str(i)+' .')
                 # select the build list to be checked
                 selectedBuildList = selectBuildList(myLink, i)
 
@@ -175,10 +183,13 @@ def mainEn(*args, **kwargs):
                         logging.warning('The current build is None!!!')
                         wait4Next()
                         continue
+
+                    logging.debug('Current build is '+str(j)+' .')
                     currentImageListUrl = currentBuildListUrl+str(j)+'/'
                     currentImagePageTableAttrs = {'data-current':'/files/FortiADC/'+str(i)+'/Images/'+str(j)}
                     remoteImageList = myLink.getRemoteImageList(currentImageListUrl, currentImagePageTableAttrs)
                     if not remoteImageList:
+                        logging.warning('Getting remote image list failed!')
                         InfoPush.send2Me('[172.22.15.138] Getting remote image list failed!')
                         wait4Next()
                         continue
@@ -189,6 +200,7 @@ def mainEn(*args, **kwargs):
                     # get remote image size dict
                     remoteImageSizeDict = myLink.headImageSize(selectedImageList, currentImageListUrl)
                     if not remoteImageSizeDict:
+                        logging.warning('Getting remote image size dict failed!')
                         InfoPush.send2Me('[172.22.15.138] Getting remote image size dict failed!')
                         wait4Next()
                         continue
@@ -205,18 +217,18 @@ def mainEn(*args, **kwargs):
                     if imageToDownload == []:
                         if len(selectedImageList) == len(remoteImageSizeDict):
                             logging.info('(Remote Image size dict) "'+str(remoteImageSizeDict)+'" = (Selected image list) "'+str(selectedImageList)+'" .')
-                            if j in buildOverDict:
-                                buildOverDict[j] = int(buildOverDict[j])+1
-                            else:
-                                buildOverDict[j] = 1
                         else:
                             logging.warning('(Remote Image size dict) "' + str(
                                 remoteImageSizeDict) + '" != (Selected image list) "' + str(selectedImageList) + '" .')
-                            buildOverDict[j] = 0
+                        if j in buildOverDict:
+                            buildOverDict[j] = int(buildOverDict[j]) + 1
+                        else:
+                            buildOverDict[j] = 1
                     else:
                         buildOverDict[j] = 0
 
                     if j in buildOverDict:
+                        logging.debug('The build '+str(j)+' success count is '+str(buildOverDict[j])+' .')
                         if int(buildOverDict[j]) >= checkOverCount:
                             del buildOverDict[j]
                             logging.info('Add the build number '+str(j)+' to file '+str(fileExceptBuildList)+' .')
@@ -225,6 +237,8 @@ def mainEn(*args, **kwargs):
                             myFile.close()
                             logging.info('Sending the message to receivers '+str(infoReceiver)+' ...')
                             InfoPush.pushInfo('All selected images of '+str(j)+' has been downloaded over, you can check it on '+str(localBuildPath)+' .')
+                    else:
+                        logging.debug('The build '+str(j)+' is not in buildOverDict.')
 
 
                     downloadThreadList = []
