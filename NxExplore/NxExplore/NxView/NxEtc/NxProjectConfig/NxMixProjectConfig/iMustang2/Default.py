@@ -34,9 +34,9 @@ iMustang2ExceptListName = 'iMustang2ExceptList.txt'
 mainLogName = 'iMustang2.log'
 checkDiskUsageLogName = 'checkDiskUsage.log'
 checkWebConnectivityLogName = 'checkWebConnectivity.log'
-inputPath = PreDefault.NxExploreInputPath
-configPath = inputPath+'/'+iMustang2ConfigFileName
-fileExceptBuildList = inputPath+'/'+iMustang2ExceptListName
+mainConfigDirectory = PreDefault.NxProjectsMixProjectsPath+'/'+'iMustang2'
+configPath = mainConfigDirectory+'/'+iMustang2ConfigFileName
+fileExceptBuildList = mainConfigDirectory+'/'+iMustang2ExceptListName
 
 
 # config from iMustang2.conf file

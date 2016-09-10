@@ -1,8 +1,10 @@
 #!/usr/bin/python
 
+import logging
 
+from ....NxUsr.NxLib.NxLogging import setSimpleLogging
 from ....NxEtc.NxPublicConfig.NxPredefined import PreWechat as PredefinedWechat
-from ....NxUsr.NxLib.WechatActiveAgent import WechatActive
+from ....NxUsr.NxLib.NxWechat2.WechatActiveAgent import WechatActive
 from ....NxLib import schedule
 
 
@@ -39,6 +41,7 @@ def scheduleUs(timeString, message):
 
 
 def mainEn():
+    setSimpleLogging()
     scheduleMe('07:10', 'It\'s time to get up and go to defecate now!')
     scheduleMe('07:40', 'It\'s time to complete defecation and go to to wash now!')
     scheduleMe('07:55', 'It\'s time to complete your wash and go to cook now!')

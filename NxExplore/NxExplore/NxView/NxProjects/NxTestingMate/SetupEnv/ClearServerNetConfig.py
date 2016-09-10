@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 
-from ...NxUsr.NxLib.NxCallSystem import SshRemote
+from NxExplore.NxExplore.NxView.NxUsr.NxLib.NxCallSystem import SshRemote
 
 import sys
 import re

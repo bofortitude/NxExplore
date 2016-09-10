@@ -23,6 +23,8 @@ os.chdir(originalWorkingPath)
 
 
 NxExploreInputPath = NxExplorePath+'/NxInput'
+NxInputProjectsPath = NxExploreInputPath+'/'+'Projects'
+NxProjectsMixProjectsPath = NxInputProjectsPath+'/'+'MixProjects'
 NxExploreOutputPath = NxExplorePath+'NxOutput'
 NxExploreRootPath = NxExplorePath+'/NxRoot'
 NxBinPath = NxViewPath+'/NxBin'

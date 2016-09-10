@@ -5,12 +5,12 @@ import subprocess
 import logging
 
 
-
-
-from ....NxUsr.NxLib.WechatActiveAgent import WechatActive
+from ....NxUsr.NxLib.NxLogging import setSimpleLogging
+from ....NxUsr.NxLib.NxWechat2.WechatActiveAgent import WechatActive
 from ....NxEtc.NxPublicConfig.NxPredefined import PreWechat as PredefinedWechat
 
 def checkSubnet(dstIp):
+    setSimpleLogging()
     subnetOk = True
     subnetOkCount = 0
     subnetFailCount = 0
@@ -46,5 +46,5 @@ def checkSubnet(dstIp):
         print 'Sleep 1 second ...'
         time.sleep(1)
 
-def mainEn(dstIp = '1.1.1.1'):
+def mainEn(dstIp = '172.22.15.1'):
     checkSubnet(dstIp)

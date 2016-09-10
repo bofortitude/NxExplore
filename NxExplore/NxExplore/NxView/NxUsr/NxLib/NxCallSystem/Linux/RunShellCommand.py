@@ -3,11 +3,13 @@
 
 from ...DumpInfo import dumpInfo
 import subprocess
+import logging
 
 def runShellCmd(command, ok_msg=None, error_msg=None, doRaise=True, debug_info=False):
     '''Return the status code'''
     if debug_info == True:
-        print '[Run: ' + command + ']'
+        logging.info('[Run: ' + str(command) + ']')
+        #print '[Run: ' + command + ']'
 
     shell_run = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
@@ -15,19 +17,23 @@ def runShellCmd(command, ok_msg=None, error_msg=None, doRaise=True, debug_info=F
     status_code = shell_run.wait()
     for line in shell_run.stdout.readlines():
         if debug_info == True:
-            print line
+            logging.info(str(line))
+            #print line
         return_string = return_string + line
     if status_code == 0:
         if debug_info == True:
-            print ok_msg
+            #print ok_msg
+            logging.info(str(ok_msg))
     else:
         if doRaise == True:
             if debug_info == True:
-                print error_msg
+                #print error_msg
+                logging.info(str(error_msg))
             raise RuntimeError(error_msg, 'in RunShellCommand.py')
         else:
             if debug_info == True:
-                print error_msg
+                #print error_msg
+                logging.info(str(error_msg))
         return False
     return return_string
 

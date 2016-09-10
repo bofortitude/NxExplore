@@ -32,7 +32,7 @@ def getSelectedBuildList(buildListOnSite):
         if i not in exceptList:
             selectedBuildList.append(i)
 
-    logging.info('The selected build list is:')
+    logging.info('The selected build list in local disk is:')
     logging.info(str(selectedBuildList))
     return selectedBuildList
 
@@ -45,6 +45,7 @@ def selectBuildList(myLink, i):
     currentInfoWebHtmlBuildTableAttrs = {'data-current': '/files/FortiADC/' + str(i) + '/Images'}
     currentBuildList = myLink.getBuildListOnSite(currentBuildListUrl, currentInfoWebHtmlBuildTableAttrs)
     if not currentBuildList:
+        logging.warning('The current build list is false!!')
         wait4Next()
     selectedBuildList = getSelectedBuildList(currentBuildList)
     return selectedBuildList
@@ -52,42 +53,55 @@ def selectBuildList(myLink, i):
 def selectImageList(remoteImageList):
     selectedImageList = []
     if not remoteImageList:
+        logging.warning('The remote image list is false!!')
         wait4Next()
     if selectedImageReList == []:
+        logging.info('The selectedImageReList is empty.')
         return remoteImageList
     elif not selectedImageReList:
+        logging.warning('The selectedImageReList is false!!')
         return remoteImageList
     for i in remoteImageList:
         for j in selectedImageReList:
             if j.search(i):
                 selectedImageList.append(i)
                 break
+    logging.info('The selectedImageList is '+str(selectedImageList)+' .')
     return selectedImageList
 
 def checkLocalFolder(j):
     if not NxFiles.isDir(imageLocalStoragePath):
+        logging.info('The directory "'+str(imageLocalStoragePath)+'" does not exist, make it now.')
         NxFiles.makeDirs(imageLocalStoragePath)
     currentBuildLocalPath = imageLocalStoragePath + '/' + str(j)
     if not NxFiles.isDir(currentBuildLocalPath):
         # no local build folder
+        logging.info('The local build folder "'+str(currentBuildLocalPath)+'" does not exist, make it now.')
         NxFiles.makeDirs(currentBuildLocalPath)
 
     if not NxFiles.isDir(currentBuildLocalPath+'/'+'coredump'):
+        logging.info('The coredump folder "'+str(currentBuildLocalPath+'/'+'coredump')+'" does not exist, make it now.')
         NxFiles.makeDirs(currentBuildLocalPath+'/'+'coredump')
     runShellCmd('chown ftp:root '+currentBuildLocalPath+'/'+'coredump',
                 ok_msg='The '+currentBuildLocalPath+'/'+'coredump'+' has been chowned.',
                 error_msg='The '+currentBuildLocalPath+'/'+'coredump'+' chowned error!',
                 doRaise=False, debug_info=True)
-
+    logging.info('Current working build path is '+str(currentBuildLocalPath)+' .')
     return currentBuildLocalPath
 
 def getDownloadList(remoteImageSizeDict, localBuildPath):
     imageToDownload = []
     for (key, value) in remoteImageSizeDict.items():
         if not NxFiles.isFile(localBuildPath + '/' + str(key)):
+            logging.info('The file "'+str(localBuildPath + '/' + str(key))+'" does not exist, it is to be downloaded.')
             imageToDownload.append(str(key))
         else:
+            logging.info('The size of file "'+str(key)+'" in local disk is '
+                         +str(NxFiles.fileSize(localBuildPath + '/' + str(key))))+' .'
+            logging.info('The size of file "' +str(key)+ '" in remote server is '
+                         +str(value)+' .')
             if int(NxFiles.fileSize(localBuildPath + '/' + str(key))) != int(value):
+                logging.info('The size of file "'+str(key)+'" are different between local disk and remote server, it is to be downloaded.')
                 NxFiles.removeForce(localBuildPath + '/' + str(key))
                 imageToDownload.append(str(key))
     return imageToDownload
