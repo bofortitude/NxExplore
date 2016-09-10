@@ -103,16 +103,17 @@ def getDownloadList(remoteImageSizeDict, localBuildPath):
                 tmpKey = 'None'
             else:
                 tmpKey = str(key)
+
+            localFileSize = NxFiles.fileSize(localBuildPath + '/' + str(key))
             logging.info('The size of file "'+str(tmpKey)+'" in local disk is '
-                             +str(NxFiles.fileSize(localBuildPath + '/' + str(tmpKey))))+' .'
+                             +str(localFileSize)+' .')
 
             if value is None:
                 tmpRemoteValue = 'None'
             else:
                 tmpRemoteValue = str(value)
 
-            logging.info('The size of file "' +str(tmpKey)+ '" in remote server is '
-                         +tmpRemoteValue+' .')
+            logging.info('The size of file "' +str(tmpKey)+ '" in remote server is '+str(tmpRemoteValue)+' .')
             if int(NxFiles.fileSize(localBuildPath + '/' + str(key))) != int(value):
                 logging.info('The size of file "'+str(key)+'" are different between local disk and remote server, it is to be downloaded.')
                 NxFiles.removeForce(localBuildPath + '/' + str(key))
