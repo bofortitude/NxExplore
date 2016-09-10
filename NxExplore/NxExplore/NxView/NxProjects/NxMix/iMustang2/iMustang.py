@@ -203,15 +203,15 @@ def mainEn(*args, **kwargs):
 
                     # check imageToDownload and if build over
                     if imageToDownload == []:
-                        if len(selectedBuildList) == len(remoteImageSizeDict):
-                            logging.info('(Remote Image size dict) "'+str(remoteImageSizeDict)+'" = (Selected build list) "'+str(selectedBuildList)+'" .')
+                        if len(selectedImageList) == len(remoteImageSizeDict):
+                            logging.info('(Remote Image size dict) "'+str(remoteImageSizeDict)+'" = (Selected image list) "'+str(selectedImageList)+'" .')
                             if j in buildOverDict:
                                 buildOverDict[j] = int(buildOverDict[j])+1
                             else:
                                 buildOverDict[j] = 1
                         else:
                             logging.warning('(Remote Image size dict) "' + str(
-                                remoteImageSizeDict) + '" != (Selected build list) "' + str(selectedBuildList) + '" .')
+                                remoteImageSizeDict) + '" != (Selected image list) "' + str(selectedImageList) + '" .')
                             buildOverDict[j] = 0
                     else:
                         buildOverDict[j] = 0
