@@ -92,14 +92,27 @@ def checkLocalFolder(j):
 def getDownloadList(remoteImageSizeDict, localBuildPath):
     imageToDownload = []
     for (key, value) in remoteImageSizeDict.items():
+        if key is None:
+            logging.warning('The key is None!!')
+            continue
         if not NxFiles.isFile(localBuildPath + '/' + str(key)):
             logging.info('The file "'+str(localBuildPath + '/' + str(key))+'" does not exist, it is to be downloaded.')
             imageToDownload.append(str(key))
         else:
-            logging.info('The size of file "'+str(key)+'" in local disk is '
-                         +str(NxFiles.fileSize(localBuildPath + '/' + str(key))))+' .'
-            logging.info('The size of file "' +str(key)+ '" in remote server is '
-                         +str(value)+' .')
+            if key is None:
+                tmpKey = 'None'
+            else:
+                tmpKey = str(key)
+            logging.info('The size of file "'+str(tmpKey)+'" in local disk is '
+                             +str(NxFiles.fileSize(localBuildPath + '/' + str(tmpKey))))+' .'
+
+            if value is None:
+                tmpRemoteValue = 'None'
+            else:
+                tmpRemoteValue = str(value)
+
+            logging.info('The size of file "' +str(tmpKey)+ '" in remote server is '
+                         +tmpRemoteValue+' .')
             if int(NxFiles.fileSize(localBuildPath + '/' + str(key))) != int(value):
                 logging.info('The size of file "'+str(key)+'" are different between local disk and remote server, it is to be downloaded.')
                 NxFiles.removeForce(localBuildPath + '/' + str(key))
@@ -146,6 +159,10 @@ def mainEn(*args, **kwargs):
 
             # in selected main version list
             for i in selectedMainVersionList:
+                if i is None:
+                    logging.warning('The current main version is None!!!')
+                    wait4Next()
+                    continue
                 logging.info('Current main version is '+str(i)+' .')
                 # select the build list to be checked
                 selectedBuildList = selectBuildList(myLink, i)
@@ -153,6 +170,10 @@ def mainEn(*args, **kwargs):
                 currentBuildListUrl = infoWebMainVersionUrl + str(i) + '/Images/'
                 for j in selectedBuildList:
                     # get the remote image list
+                    if j is None:
+                        logging.warning('The current build is None!!!')
+                        wait4Next()
+                        continue
                     currentImageListUrl = currentBuildListUrl+str(j)+'/'
                     currentImagePageTableAttrs = {'data-current':'/files/FortiADC/'+str(i)+'/Images/'+str(j)}
                     remoteImageList = myLink.getRemoteImageList(currentImageListUrl, currentImagePageTableAttrs)
