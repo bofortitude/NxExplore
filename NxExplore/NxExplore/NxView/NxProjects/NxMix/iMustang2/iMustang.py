@@ -236,7 +236,7 @@ def mainEn(*args, **kwargs):
                             myFile.write(str(j) + '\n')
                             myFile.close()
                             logging.info('Sending the message to receivers '+str(infoReceiver)+' ...')
-                            InfoPush.pushInfo('All selected images of '+str(j)+' has been downloaded over, you can check it on '+str(localBuildPath)+' .')
+                            InfoPush.pushInfo('All selected images of '+str(j)+' has been checked for '+str(checkOverCount)+' times, they are deemed downloading over, you can check it on '+str(localBuildPath)+' .')
                     else:
                         logging.debug('The build '+str(j)+' is not in buildOverDict.')
 
